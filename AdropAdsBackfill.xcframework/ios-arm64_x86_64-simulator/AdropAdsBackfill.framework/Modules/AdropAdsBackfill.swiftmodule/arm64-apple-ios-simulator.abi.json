@@ -1,0 +1,4322 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "AdropAdsBackfill",
+    "printedName": "AdropAdsBackfill",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdropAdsBackfill",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdropAdsBackfill"
+      },
+      {
+        "kind": "Import",
+        "name": "AdropAds",
+        "printedName": "AdropAds",
+        "declKind": "Import",
+        "moduleName": "AdropAdsBackfill",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "AdropAdsBackfill"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BackfillRewardedAdapter",
+        "printedName": "BackfillRewardedAdapter",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "rewardedAd",
+            "printedName": "rewardedAd",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "GoogleMobileAds.RewardedAd?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RewardedAd",
+                    "printedName": "GoogleMobileAds.RewardedAd",
+                    "usr": "c:objc(cs)GADRewardedAd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16AdropAdsBackfill0C15RewardedAdapterC10rewardedAd33_7A5855FC4788D18D58278101221D7941LLSo011GADRewardedG0CSgvp",
+            "mangledName": "$s16AdropAdsBackfill0C15RewardedAdapterC10rewardedAd33_7A5855FC4788D18D58278101221D7941LLSo011GADRewardedG0CSgvp",
+            "moduleName": "AdropAdsBackfill",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 0,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "completion",
+            "printedName": "completion",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.String?, AdropAdsBackfill.BackfillAdSource, (any Swift.Error)?) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String?, AdropAdsBackfill.BackfillAdSource, (any Swift.Error)?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Swift.String?, AdropAdsBackfill.BackfillAdSource, (any Swift.Error)?)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.String?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "BackfillAdSource",
+                            "printedName": "AdropAdsBackfill.BackfillAdSource",
+                            "usr": "c:@M@AdropAdsBackfill@E@BackfillAdSource"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "(any Swift.Error)?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Error",
+                                "printedName": "any Swift.Error",
+                                "usr": "s:s5ErrorP"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16AdropAdsBackfill0C15RewardedAdapterC10completion33_7A5855FC4788D18D58278101221D7941LLySSSg_AA0C8AdSourceOs5Error_pSgtcSgvp",
+            "mangledName": "$s16AdropAdsBackfill0C15RewardedAdapterC10completion33_7A5855FC4788D18D58278101221D7941LLySSSg_AA0C8AdSourceOs5Error_pSgtcSgvp",
+            "moduleName": "AdropAdsBackfill",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 1,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "rewardedAdObject",
+            "printedName": "rewardedAdObject",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "AdropAds.AdropRewardedAd?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16AdropAdsBackfill0C15RewardedAdapterC16rewardedAdObject33_7A5855FC4788D18D58278101221D7941LL0aB00adG0CSgvp",
+            "mangledName": "$s16AdropAdsBackfill0C15RewardedAdapterC16rewardedAdObject33_7A5855FC4788D18D58278101221D7941LL0aB00adG0CSgvp",
+            "moduleName": "AdropAdsBackfill",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 2,
+            "ownership": 1,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "rewardHandler",
+            "printedName": "rewardHandler",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Int, Swift.Int) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int, Swift.Int) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Swift.Int, Swift.Int)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16AdropAdsBackfill0C15RewardedAdapterC13rewardHandler33_7A5855FC4788D18D58278101221D7941LLySi_SitcSgvp",
+            "mangledName": "$s16AdropAdsBackfill0C15RewardedAdapterC13rewardHandler33_7A5855FC4788D18D58278101221D7941LLySi_SitcSgvp",
+            "moduleName": "AdropAdsBackfill",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 3,
+            "hasStorage": true
+          },
+          {
+            "kind": "Function",
+            "name": "loadAdMobRewarded",
+            "printedName": "loadAdMobRewarded(admobUnitId:adropUnitId:rewardedAd:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdropRewardedAd",
+                "printedName": "AdropAds.AdropRewardedAd",
+                "usr": "c:@M@AdropAds@objc(cs)AdropRewardedAd"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String?, AdropAdsBackfill.BackfillAdSource, (any Swift.Error)?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.String?, AdropAdsBackfill.BackfillAdSource, (any Swift.Error)?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BackfillAdSource",
+                        "printedName": "AdropAdsBackfill.BackfillAdSource",
+                        "usr": "c:@M@AdropAdsBackfill@E@BackfillAdSource"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any Swift.Error)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16AdropAdsBackfill0C15RewardedAdapterC09loadAdMobD011admobUnitId05adropjK008rewardedG010completionySS_SS0aB00adG0CySSSg_AA0cG6SourceOs5Error_pSgtctF",
+            "mangledName": "$s16AdropAdsBackfill0C15RewardedAdapterC09loadAdMobD011admobUnitId05adropjK008rewardedG010completionySS_SS0aB00adG0CySSSg_AA0cG6SourceOs5Error_pSgtctF",
+            "moduleName": "AdropAdsBackfill",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BackfillRewardedAdapter",
+                "printedName": "AdropAdsBackfill.BackfillRewardedAdapter",
+                "usr": "c:@M@AdropAdsBackfill@objc(cs)BackfillRewardedAdapter"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AdropAdsBackfill@objc(cs)BackfillRewardedAdapter(im)init",
+            "mangledName": "$s16AdropAdsBackfill0C15RewardedAdapterCACycfc",
+            "moduleName": "AdropAdsBackfill",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "adDidRecordImpression",
+            "printedName": "adDidRecordImpression(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FullScreenPresentingAd",
+                "printedName": "any GoogleMobileAds.FullScreenPresentingAd",
+                "usr": "c:objc(pl)GADFullScreenPresentingAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdropAdsBackfill@objc(cs)BackfillRewardedAdapter(im)adDidRecordImpression:",
+            "mangledName": "$s16AdropAdsBackfill0C15RewardedAdapterC21adDidRecordImpressionyySo25GADFullScreenPresentingAd_pF",
+            "moduleName": "AdropAdsBackfill",
+            "isOpen": true,
+            "objc_name": "adDidRecordImpression:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "ad",
+            "printedName": "ad(_:didFailToPresentFullScreenContentWithError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FullScreenPresentingAd",
+                "printedName": "any GoogleMobileAds.FullScreenPresentingAd",
+                "usr": "c:objc(pl)GADFullScreenPresentingAd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdropAdsBackfill@objc(cs)BackfillRewardedAdapter(im)ad:didFailToPresentFullScreenContentWithError:",
+            "mangledName": "$s16AdropAdsBackfill0C15RewardedAdapterC2ad_42didFailToPresentFullScreenContentWithErrorySo07GADFullL12PresentingAd_p_s0O0_ptF",
+            "moduleName": "AdropAdsBackfill",
+            "isOpen": true,
+            "objc_name": "ad:didFailToPresentFullScreenContentWithError:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adWillPresentFullScreenContent",
+            "printedName": "adWillPresentFullScreenContent(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FullScreenPresentingAd",
+                "printedName": "any GoogleMobileAds.FullScreenPresentingAd",
+                "usr": "c:objc(pl)GADFullScreenPresentingAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdropAdsBackfill@objc(cs)BackfillRewardedAdapter(im)adWillPresentFullScreenContent:",
+            "mangledName": "$s16AdropAdsBackfill0C15RewardedAdapterC30adWillPresentFullScreenContentyySo07GADFullJ12PresentingAd_pF",
+            "moduleName": "AdropAdsBackfill",
+            "isOpen": true,
+            "objc_name": "adWillPresentFullScreenContent:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adDidDismissFullScreenContent",
+            "printedName": "adDidDismissFullScreenContent(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FullScreenPresentingAd",
+                "printedName": "any GoogleMobileAds.FullScreenPresentingAd",
+                "usr": "c:objc(pl)GADFullScreenPresentingAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdropAdsBackfill@objc(cs)BackfillRewardedAdapter(im)adDidDismissFullScreenContent:",
+            "mangledName": "$s16AdropAdsBackfill0C15RewardedAdapterC29adDidDismissFullScreenContentyySo07GADFullJ12PresentingAd_pF",
+            "moduleName": "AdropAdsBackfill",
+            "isOpen": true,
+            "objc_name": "adDidDismissFullScreenContent:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adWillDismissFullScreenContent",
+            "printedName": "adWillDismissFullScreenContent(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FullScreenPresentingAd",
+                "printedName": "any GoogleMobileAds.FullScreenPresentingAd",
+                "usr": "c:objc(pl)GADFullScreenPresentingAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdropAdsBackfill@objc(cs)BackfillRewardedAdapter(im)adWillDismissFullScreenContent:",
+            "mangledName": "$s16AdropAdsBackfill0C15RewardedAdapterC30adWillDismissFullScreenContentyySo07GADFullJ12PresentingAd_pF",
+            "moduleName": "AdropAdsBackfill",
+            "isOpen": true,
+            "objc_name": "adWillDismissFullScreenContent:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AdropAdsBackfill@objc(cs)BackfillRewardedAdapter",
+        "mangledName": "$s16AdropAdsBackfill0C15RewardedAdapterC",
+        "moduleName": "AdropAdsBackfill",
+        "isOpen": true,
+        "declAttributes": [
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdropAdsBackfill",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdropAdsBackfill"
+      },
+      {
+        "kind": "Import",
+        "name": "AdropAds",
+        "printedName": "AdropAds",
+        "declKind": "Import",
+        "moduleName": "AdropAdsBackfill",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "AdropAdsBackfill"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdropAdsBackfill",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BackfillNetworkKind",
+        "printedName": "BackfillNetworkKind",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "admob",
+            "printedName": "admob",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AdropAdsBackfill.BackfillNetworkKind.Type) -> AdropAdsBackfill.BackfillNetworkKind",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BackfillNetworkKind",
+                    "printedName": "AdropAdsBackfill.BackfillNetworkKind",
+                    "usr": "s:16AdropAdsBackfill0C11NetworkKindO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AdropAdsBackfill.BackfillNetworkKind.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BackfillNetworkKind",
+                        "printedName": "AdropAdsBackfill.BackfillNetworkKind",
+                        "usr": "s:16AdropAdsBackfill0C11NetworkKindO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16AdropAdsBackfill0C11NetworkKindO5admobyA2CmF",
+            "mangledName": "$s16AdropAdsBackfill0C11NetworkKindO5admobyA2CmF",
+            "moduleName": "AdropAdsBackfill",
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "adsense",
+            "printedName": "adsense",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AdropAdsBackfill.BackfillNetworkKind.Type) -> AdropAdsBackfill.BackfillNetworkKind",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BackfillNetworkKind",
+                    "printedName": "AdropAdsBackfill.BackfillNetworkKind",
+                    "usr": "s:16AdropAdsBackfill0C11NetworkKindO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AdropAdsBackfill.BackfillNetworkKind.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BackfillNetworkKind",
+                        "printedName": "AdropAdsBackfill.BackfillNetworkKind",
+                        "usr": "s:16AdropAdsBackfill0C11NetworkKindO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16AdropAdsBackfill0C11NetworkKindO7adsenseyA2CmF",
+            "mangledName": "$s16AdropAdsBackfill0C11NetworkKindO7adsenseyA2CmF",
+            "moduleName": "AdropAdsBackfill",
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "criteo",
+            "printedName": "criteo",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AdropAdsBackfill.BackfillNetworkKind.Type) -> AdropAdsBackfill.BackfillNetworkKind",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BackfillNetworkKind",
+                    "printedName": "AdropAdsBackfill.BackfillNetworkKind",
+                    "usr": "s:16AdropAdsBackfill0C11NetworkKindO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AdropAdsBackfill.BackfillNetworkKind.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BackfillNetworkKind",
+                        "printedName": "AdropAdsBackfill.BackfillNetworkKind",
+                        "usr": "s:16AdropAdsBackfill0C11NetworkKindO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16AdropAdsBackfill0C11NetworkKindO6criteoyA2CmF",
+            "mangledName": "$s16AdropAdsBackfill0C11NetworkKindO6criteoyA2CmF",
+            "moduleName": "AdropAdsBackfill",
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Var",
+            "name": "anymanager",
+            "printedName": "anymanager",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AdropAdsBackfill.BackfillNetworkKind.Type) -> AdropAdsBackfill.BackfillNetworkKind",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BackfillNetworkKind",
+                    "printedName": "AdropAdsBackfill.BackfillNetworkKind",
+                    "usr": "s:16AdropAdsBackfill0C11NetworkKindO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AdropAdsBackfill.BackfillNetworkKind.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BackfillNetworkKind",
+                        "printedName": "AdropAdsBackfill.BackfillNetworkKind",
+                        "usr": "s:16AdropAdsBackfill0C11NetworkKindO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16AdropAdsBackfill0C11NetworkKindO10anymanageryA2CmF",
+            "mangledName": "$s16AdropAdsBackfill0C11NetworkKindO10anymanageryA2CmF",
+            "moduleName": "AdropAdsBackfill",
+            "fixedbinaryorder": 3
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AdropAdsBackfill.BackfillNetworkKind?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BackfillNetworkKind",
+                    "printedName": "AdropAdsBackfill.BackfillNetworkKind",
+                    "usr": "s:16AdropAdsBackfill0C11NetworkKindO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16AdropAdsBackfill0C11NetworkKindO8rawValueACSgSS_tcfc",
+            "mangledName": "$s16AdropAdsBackfill0C11NetworkKindO8rawValueACSgSS_tcfc",
+            "moduleName": "AdropAdsBackfill",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16AdropAdsBackfill0C11NetworkKindO8rawValueSSvp",
+            "mangledName": "$s16AdropAdsBackfill0C11NetworkKindO8rawValueSSvp",
+            "moduleName": "AdropAdsBackfill",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16AdropAdsBackfill0C11NetworkKindO8rawValueSSvg",
+                "mangledName": "$s16AdropAdsBackfill0C11NetworkKindO8rawValueSSvg",
+                "moduleName": "AdropAdsBackfill",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:16AdropAdsBackfill0C11NetworkKindO",
+        "mangledName": "$s16AdropAdsBackfill0C11NetworkKindO",
+        "moduleName": "AdropAdsBackfill",
+        "declAttributes": [
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "String",
+        "isEnumExhaustive": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdropAdsBackfill",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AdropAds",
+        "printedName": "AdropAds",
+        "declKind": "Import",
+        "moduleName": "AdropAdsBackfill",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "AdropAdsBackfill"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BackfillManager",
+        "printedName": "BackfillManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BackfillManager",
+                "printedName": "AdropAdsBackfill.BackfillManager",
+                "usr": "s:16AdropAdsBackfill0C7ManagerC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16AdropAdsBackfill0C7ManagerC6sharedACvpZ",
+            "mangledName": "$s16AdropAdsBackfill0C7ManagerC6sharedACvpZ",
+            "moduleName": "AdropAdsBackfill",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BackfillManager",
+                    "printedName": "AdropAdsBackfill.BackfillManager",
+                    "usr": "s:16AdropAdsBackfill0C7ManagerC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16AdropAdsBackfill0C7ManagerC6sharedACvgZ",
+                "mangledName": "$s16AdropAdsBackfill0C7ManagerC6sharedACvgZ",
+                "moduleName": "AdropAdsBackfill",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "requestAdWithBackfill",
+            "printedName": "requestAdWithBackfill(unitId:contextId:targetBanner:viewController:originalHandler:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdropBanner",
+                "printedName": "AdropAds.AdropBanner",
+                "usr": "c:@M@AdropAds@objc(cs)AdropBanner"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AdropAds.AdRes?, (any Swift.Error)?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(AdropAds.AdRes?, (any Swift.Error)?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "AdropAds.AdRes?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AdRes",
+                            "printedName": "AdropAds.AdRes",
+                            "usr": "s:8AdropAds5AdResV"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any Swift.Error)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String?, AdropAdsBackfill.BackfillAdSource, (any Swift.Error)?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.String?, AdropAdsBackfill.BackfillAdSource, (any Swift.Error)?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BackfillAdSource",
+                        "printedName": "AdropAdsBackfill.BackfillAdSource",
+                        "usr": "c:@M@AdropAdsBackfill@E@BackfillAdSource"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any Swift.Error)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16AdropAdsBackfill0C7ManagerC013requestAdWithC06unitId07contextI012targetBanner14viewController15originalHandler10completionySS_SS0aB00aL0CSo06UIViewN0CSgyAK0F3ResVSg_s5Error_pSgtcySSSg_AA0cF6SourceOAUtctF",
+            "mangledName": "$s16AdropAdsBackfill0C7ManagerC013requestAdWithC06unitId07contextI012targetBanner14viewController15originalHandler10completionySS_SS0aB00aL0CSo06UIViewN0CSgyAK0F3ResVSg_s5Error_pSgtcySSSg_AA0cF6SourceOAUtctF",
+            "moduleName": "AdropAdsBackfill",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "requestInterstitialAdWithBackfill",
+            "printedName": "requestInterstitialAdWithBackfill(unitId:interstitialAd:originalHandler:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdropInterstitialAd",
+                "printedName": "AdropAds.AdropInterstitialAd",
+                "usr": "c:@M@AdropAds@objc(cs)AdropInterstitialAd"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AdropAds.AdRes?, (any Swift.Error)?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(AdropAds.AdRes?, (any Swift.Error)?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "AdropAds.AdRes?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AdRes",
+                            "printedName": "AdropAds.AdRes",
+                            "usr": "s:8AdropAds5AdResV"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any Swift.Error)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String?, AdropAdsBackfill.BackfillAdSource, (any Swift.Error)?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.String?, AdropAdsBackfill.BackfillAdSource, (any Swift.Error)?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BackfillAdSource",
+                        "printedName": "AdropAdsBackfill.BackfillAdSource",
+                        "usr": "c:@M@AdropAdsBackfill@E@BackfillAdSource"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any Swift.Error)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16AdropAdsBackfill0C7ManagerC025requestInterstitialAdWithC06unitId012interstitialG015originalHandler10completionySS_0aB00afG0CyAI0G3ResVSg_s5Error_pSgtcySSSg_AA0cG6SourceOAPtctF",
+            "mangledName": "$s16AdropAdsBackfill0C7ManagerC025requestInterstitialAdWithC06unitId012interstitialG015originalHandler10completionySS_0aB00afG0CyAI0G3ResVSg_s5Error_pSgtcySSSg_AA0cG6SourceOAPtctF",
+            "moduleName": "AdropAdsBackfill",
+            "isOpen": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "requestRewardedAdWithBackfill",
+            "printedName": "requestRewardedAdWithBackfill(unitId:rewardedAd:originalHandler:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdropRewardedAd",
+                "printedName": "AdropAds.AdropRewardedAd",
+                "usr": "c:@M@AdropAds@objc(cs)AdropRewardedAd"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AdropAds.AdRes?, (any Swift.Error)?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(AdropAds.AdRes?, (any Swift.Error)?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "AdropAds.AdRes?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AdRes",
+                            "printedName": "AdropAds.AdRes",
+                            "usr": "s:8AdropAds5AdResV"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any Swift.Error)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String?, AdropAdsBackfill.BackfillAdSource, (any Swift.Error)?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.String?, AdropAdsBackfill.BackfillAdSource, (any Swift.Error)?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BackfillAdSource",
+                        "printedName": "AdropAdsBackfill.BackfillAdSource",
+                        "usr": "c:@M@AdropAdsBackfill@E@BackfillAdSource"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any Swift.Error)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16AdropAdsBackfill0C7ManagerC021requestRewardedAdWithC06unitId08rewardedG015originalHandler10completionySS_0aB00afG0CyAI0G3ResVSg_s5Error_pSgtcySSSg_AA0cG6SourceOAPtctF",
+            "mangledName": "$s16AdropAdsBackfill0C7ManagerC021requestRewardedAdWithC06unitId08rewardedG015originalHandler10completionySS_0aB00afG0CyAI0G3ResVSg_s5Error_pSgtcySSSg_AA0cG6SourceOAPtctF",
+            "moduleName": "AdropAdsBackfill",
+            "isOpen": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "requestNativeAdWithBackfill",
+            "printedName": "requestNativeAdWithBackfill(unitId:nativeAd:originalHandler:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdropNativeAd",
+                "printedName": "AdropAds.AdropNativeAd",
+                "usr": "c:@M@AdropAds@objc(cs)AdropNativeAd"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AdropAds.AdRes?, (any Swift.Error)?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(AdropAds.AdRes?, (any Swift.Error)?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "AdropAds.AdRes?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AdRes",
+                            "printedName": "AdropAds.AdRes",
+                            "usr": "s:8AdropAds5AdResV"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any Swift.Error)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String?, AdropAdsBackfill.BackfillAdSource, (any Swift.Error)?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.String?, AdropAdsBackfill.BackfillAdSource, (any Swift.Error)?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BackfillAdSource",
+                        "printedName": "AdropAdsBackfill.BackfillAdSource",
+                        "usr": "c:@M@AdropAdsBackfill@E@BackfillAdSource"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any Swift.Error)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16AdropAdsBackfill0C7ManagerC019requestNativeAdWithC06unitId06nativeG015originalHandler10completionySS_0aB00afG0CyAI0G3ResVSg_s5Error_pSgtcySSSg_AA0cG6SourceOAPtctF",
+            "mangledName": "$s16AdropAdsBackfill0C7ManagerC019requestNativeAdWithC06unitId06nativeG015originalHandler10completionySS_0aB00afG0CyAI0G3ResVSg_s5Error_pSgtcySSSg_AA0cG6SourceOAPtctF",
+            "moduleName": "AdropAdsBackfill",
+            "isOpen": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:16AdropAdsBackfill0C7ManagerC",
+        "mangledName": "$s16AdropAdsBackfill0C7ManagerC",
+        "moduleName": "AdropAdsBackfill",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BackfillError",
+        "printedName": "BackfillError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "noBackfillUnitId",
+            "printedName": "noBackfillUnitId",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AdropAdsBackfill.BackfillError.Type) -> AdropAdsBackfill.BackfillError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BackfillError",
+                    "printedName": "AdropAdsBackfill.BackfillError",
+                    "usr": "s:16AdropAdsBackfill0C5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AdropAdsBackfill.BackfillError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BackfillError",
+                        "printedName": "AdropAdsBackfill.BackfillError",
+                        "usr": "s:16AdropAdsBackfill0C5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16AdropAdsBackfill0C5ErrorO02noC6UnitIdyA2CmF",
+            "mangledName": "$s16AdropAdsBackfill0C5ErrorO02noC6UnitIdyA2CmF",
+            "moduleName": "AdropAdsBackfill",
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "backfillDisabled",
+            "printedName": "backfillDisabled",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AdropAdsBackfill.BackfillError.Type) -> AdropAdsBackfill.BackfillError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BackfillError",
+                    "printedName": "AdropAdsBackfill.BackfillError",
+                    "usr": "s:16AdropAdsBackfill0C5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AdropAdsBackfill.BackfillError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BackfillError",
+                        "printedName": "AdropAdsBackfill.BackfillError",
+                        "usr": "s:16AdropAdsBackfill0C5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16AdropAdsBackfill0C5ErrorO16backfillDisabledyA2CmF",
+            "mangledName": "$s16AdropAdsBackfill0C5ErrorO16backfillDisabledyA2CmF",
+            "moduleName": "AdropAdsBackfill",
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "admobLoadFailed",
+            "printedName": "admobLoadFailed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AdropAdsBackfill.BackfillError.Type) -> AdropAdsBackfill.BackfillError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BackfillError",
+                    "printedName": "AdropAdsBackfill.BackfillError",
+                    "usr": "s:16AdropAdsBackfill0C5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AdropAdsBackfill.BackfillError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BackfillError",
+                        "printedName": "AdropAdsBackfill.BackfillError",
+                        "usr": "s:16AdropAdsBackfill0C5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16AdropAdsBackfill0C5ErrorO15admobLoadFailedyA2CmF",
+            "mangledName": "$s16AdropAdsBackfill0C5ErrorO15admobLoadFailedyA2CmF",
+            "moduleName": "AdropAdsBackfill",
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Var",
+            "name": "admobInitFailed",
+            "printedName": "admobInitFailed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AdropAdsBackfill.BackfillError.Type) -> AdropAdsBackfill.BackfillError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BackfillError",
+                    "printedName": "AdropAdsBackfill.BackfillError",
+                    "usr": "s:16AdropAdsBackfill0C5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AdropAdsBackfill.BackfillError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BackfillError",
+                        "printedName": "AdropAdsBackfill.BackfillError",
+                        "usr": "s:16AdropAdsBackfill0C5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16AdropAdsBackfill0C5ErrorO15admobInitFailedyA2CmF",
+            "mangledName": "$s16AdropAdsBackfill0C5ErrorO15admobInitFailedyA2CmF",
+            "moduleName": "AdropAdsBackfill",
+            "fixedbinaryorder": 3
+          },
+          {
+            "kind": "Var",
+            "name": "localizedDescription",
+            "printedName": "localizedDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16AdropAdsBackfill0C5ErrorO20localizedDescriptionSSvp",
+            "mangledName": "$s16AdropAdsBackfill0C5ErrorO20localizedDescriptionSSvp",
+            "moduleName": "AdropAdsBackfill",
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16AdropAdsBackfill0C5ErrorO20localizedDescriptionSSvg",
+                "mangledName": "$s16AdropAdsBackfill0C5ErrorO20localizedDescriptionSSvg",
+                "moduleName": "AdropAdsBackfill",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BackfillError",
+                "printedName": "AdropAdsBackfill.BackfillError",
+                "usr": "s:16AdropAdsBackfill0C5ErrorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BackfillError",
+                "printedName": "AdropAdsBackfill.BackfillError",
+                "usr": "s:16AdropAdsBackfill0C5ErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16AdropAdsBackfill0C5ErrorO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s16AdropAdsBackfill0C5ErrorO2eeoiySbAC_ACtFZ",
+            "moduleName": "AdropAdsBackfill",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16AdropAdsBackfill0C5ErrorO9hashValueSivp",
+            "mangledName": "$s16AdropAdsBackfill0C5ErrorO9hashValueSivp",
+            "moduleName": "AdropAdsBackfill",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16AdropAdsBackfill0C5ErrorO9hashValueSivg",
+                "mangledName": "$s16AdropAdsBackfill0C5ErrorO9hashValueSivg",
+                "moduleName": "AdropAdsBackfill",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16AdropAdsBackfill0C5ErrorO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s16AdropAdsBackfill0C5ErrorO4hash4intoys6HasherVz_tF",
+            "moduleName": "AdropAdsBackfill",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:16AdropAdsBackfill0C5ErrorO",
+        "mangledName": "$s16AdropAdsBackfill0C5ErrorO",
+        "moduleName": "AdropAdsBackfill",
+        "declAttributes": [
+          "RawDocComment"
+        ],
+        "isEnumExhaustive": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdropAdsBackfill",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdropAdsBackfill"
+      },
+      {
+        "kind": "Import",
+        "name": "AdropAds",
+        "printedName": "AdropAds",
+        "declKind": "Import",
+        "moduleName": "AdropAdsBackfill",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "AdropAdsBackfill"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BackfillBannerAdapter",
+        "printedName": "BackfillBannerAdapter",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "bannerView",
+            "printedName": "bannerView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "GoogleMobileAds.BannerView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BannerView",
+                    "printedName": "GoogleMobileAds.BannerView",
+                    "usr": "c:objc(cs)GADBannerView"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16AdropAdsBackfill0C13BannerAdapterC10bannerView33_F66271299749506F335A072DB54471E9LLSo09GADBannerG0CSgvp",
+            "mangledName": "$s16AdropAdsBackfill0C13BannerAdapterC10bannerView33_F66271299749506F335A072DB54471E9LLSo09GADBannerG0CSgvp",
+            "moduleName": "AdropAdsBackfill",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 0,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "completion",
+            "printedName": "completion",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.String?, AdropAdsBackfill.BackfillAdSource, (any Swift.Error)?) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String?, AdropAdsBackfill.BackfillAdSource, (any Swift.Error)?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Swift.String?, AdropAdsBackfill.BackfillAdSource, (any Swift.Error)?)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.String?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "BackfillAdSource",
+                            "printedName": "AdropAdsBackfill.BackfillAdSource",
+                            "usr": "c:@M@AdropAdsBackfill@E@BackfillAdSource"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "(any Swift.Error)?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Error",
+                                "printedName": "any Swift.Error",
+                                "usr": "s:s5ErrorP"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16AdropAdsBackfill0C13BannerAdapterC10completion33_F66271299749506F335A072DB54471E9LLySSSg_AA0C8AdSourceOs5Error_pSgtcSgvp",
+            "mangledName": "$s16AdropAdsBackfill0C13BannerAdapterC10completion33_F66271299749506F335A072DB54471E9LLySSSg_AA0C8AdSourceOs5Error_pSgtcSgvp",
+            "moduleName": "AdropAdsBackfill",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 1,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "targetBanner",
+            "printedName": "targetBanner",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "AdropAds.AdropBanner?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16AdropAdsBackfill0C13BannerAdapterC06targetD033_F66271299749506F335A072DB54471E9LL0aB00aD0CSgvp",
+            "mangledName": "$s16AdropAdsBackfill0C13BannerAdapterC06targetD033_F66271299749506F335A072DB54471E9LL0aB00aD0CSgvp",
+            "moduleName": "AdropAdsBackfill",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 2,
+            "ownership": 1,
+            "hasStorage": true
+          },
+          {
+            "kind": "Function",
+            "name": "loadAdMobBanner",
+            "printedName": "loadAdMobBanner(admobUnitId:adropUnitId:targetBanner:viewController:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdropBanner",
+                "printedName": "AdropAds.AdropBanner",
+                "usr": "c:@M@AdropAds@objc(cs)AdropBanner"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String?, AdropAdsBackfill.BackfillAdSource, (any Swift.Error)?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.String?, AdropAdsBackfill.BackfillAdSource, (any Swift.Error)?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BackfillAdSource",
+                        "printedName": "AdropAdsBackfill.BackfillAdSource",
+                        "usr": "c:@M@AdropAdsBackfill@E@BackfillAdSource"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any Swift.Error)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16AdropAdsBackfill0C13BannerAdapterC09loadAdMobD011admobUnitId05adropjK006targetD014viewController10completionySS_SS0aB00aD0CSo06UIViewO0CSgySSSg_AA0cG6SourceOs5Error_pSgtctF",
+            "mangledName": "$s16AdropAdsBackfill0C13BannerAdapterC09loadAdMobD011admobUnitId05adropjK006targetD014viewController10completionySS_SS0aB00aD0CSo06UIViewO0CSgySSSg_AA0cG6SourceOs5Error_pSgtctF",
+            "moduleName": "AdropAdsBackfill",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BackfillBannerAdapter",
+                "printedName": "AdropAdsBackfill.BackfillBannerAdapter",
+                "usr": "c:@M@AdropAdsBackfill@objc(cs)BackfillBannerAdapter"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AdropAdsBackfill@objc(cs)BackfillBannerAdapter(im)init",
+            "mangledName": "$s16AdropAdsBackfill0C13BannerAdapterCACycfc",
+            "moduleName": "AdropAdsBackfill",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "bannerViewDidReceiveAd",
+            "printedName": "bannerViewDidReceiveAd(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BannerView",
+                "printedName": "GoogleMobileAds.BannerView",
+                "usr": "c:objc(cs)GADBannerView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdropAdsBackfill@objc(cs)BackfillBannerAdapter(im)bannerViewDidReceiveAd:",
+            "mangledName": "$s16AdropAdsBackfill0C13BannerAdapterC22bannerViewDidReceiveAdyySo09GADBannerG0CF",
+            "moduleName": "AdropAdsBackfill",
+            "isOpen": true,
+            "objc_name": "bannerViewDidReceiveAd:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "bannerView",
+            "printedName": "bannerView(_:didFailToReceiveAdWithError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BannerView",
+                "printedName": "GoogleMobileAds.BannerView",
+                "usr": "c:objc(cs)GADBannerView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdropAdsBackfill@objc(cs)BackfillBannerAdapter(im)bannerView:didFailToReceiveAdWithError:",
+            "mangledName": "$s16AdropAdsBackfill0C13BannerAdapterC10bannerView_27didFailToReceiveAdWithErrorySo09GADBannerG0C_s0N0_ptF",
+            "moduleName": "AdropAdsBackfill",
+            "isOpen": true,
+            "objc_name": "bannerView:didFailToReceiveAdWithError:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "bannerViewDidRecordImpression",
+            "printedName": "bannerViewDidRecordImpression(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BannerView",
+                "printedName": "GoogleMobileAds.BannerView",
+                "usr": "c:objc(cs)GADBannerView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdropAdsBackfill@objc(cs)BackfillBannerAdapter(im)bannerViewDidRecordImpression:",
+            "mangledName": "$s16AdropAdsBackfill0C13BannerAdapterC29bannerViewDidRecordImpressionyySo09GADBannerG0CF",
+            "moduleName": "AdropAdsBackfill",
+            "isOpen": true,
+            "objc_name": "bannerViewDidRecordImpression:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "bannerViewDidRecordClick",
+            "printedName": "bannerViewDidRecordClick(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BannerView",
+                "printedName": "GoogleMobileAds.BannerView",
+                "usr": "c:objc(cs)GADBannerView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdropAdsBackfill@objc(cs)BackfillBannerAdapter(im)bannerViewDidRecordClick:",
+            "mangledName": "$s16AdropAdsBackfill0C13BannerAdapterC24bannerViewDidRecordClickyySo09GADBannerG0CF",
+            "moduleName": "AdropAdsBackfill",
+            "isOpen": true,
+            "objc_name": "bannerViewDidRecordClick:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AdropAdsBackfill@objc(cs)BackfillBannerAdapter",
+        "mangledName": "$s16AdropAdsBackfill0C13BannerAdapterC",
+        "moduleName": "AdropAdsBackfill",
+        "isOpen": true,
+        "declAttributes": [
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdropAdsBackfill",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BackfillAdSource",
+        "printedName": "BackfillAdSource",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "direct",
+            "printedName": "direct",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AdropAdsBackfill.BackfillAdSource.Type) -> AdropAdsBackfill.BackfillAdSource",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BackfillAdSource",
+                    "printedName": "AdropAdsBackfill.BackfillAdSource",
+                    "usr": "c:@M@AdropAdsBackfill@E@BackfillAdSource"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AdropAdsBackfill.BackfillAdSource.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BackfillAdSource",
+                        "printedName": "AdropAdsBackfill.BackfillAdSource",
+                        "usr": "c:@M@AdropAdsBackfill@E@BackfillAdSource"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@AdropAdsBackfill@E@BackfillAdSource@BackfillAdSourceDirect",
+            "mangledName": "$s16AdropAdsBackfill0C8AdSourceO6directyA2CmF",
+            "moduleName": "AdropAdsBackfill",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "backfill",
+            "printedName": "backfill",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AdropAdsBackfill.BackfillAdSource.Type) -> AdropAdsBackfill.BackfillAdSource",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BackfillAdSource",
+                    "printedName": "AdropAdsBackfill.BackfillAdSource",
+                    "usr": "c:@M@AdropAdsBackfill@E@BackfillAdSource"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AdropAdsBackfill.BackfillAdSource.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BackfillAdSource",
+                        "printedName": "AdropAdsBackfill.BackfillAdSource",
+                        "usr": "c:@M@AdropAdsBackfill@E@BackfillAdSource"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@AdropAdsBackfill@E@BackfillAdSource@BackfillAdSourceBackfill",
+            "mangledName": "$s16AdropAdsBackfill0C8AdSourceO8backfillyA2CmF",
+            "moduleName": "AdropAdsBackfill",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16AdropAdsBackfill0C8AdSourceO11descriptionSSvp",
+            "mangledName": "$s16AdropAdsBackfill0C8AdSourceO11descriptionSSvp",
+            "moduleName": "AdropAdsBackfill",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16AdropAdsBackfill0C8AdSourceO11descriptionSSvg",
+                "mangledName": "$s16AdropAdsBackfill0C8AdSourceO11descriptionSSvg",
+                "moduleName": "AdropAdsBackfill",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AdropAdsBackfill.BackfillAdSource?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BackfillAdSource",
+                    "printedName": "AdropAdsBackfill.BackfillAdSource",
+                    "usr": "c:@M@AdropAdsBackfill@E@BackfillAdSource"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16AdropAdsBackfill0C8AdSourceO8rawValueACSgSi_tcfc",
+            "mangledName": "$s16AdropAdsBackfill0C8AdSourceO8rawValueACSgSi_tcfc",
+            "moduleName": "AdropAdsBackfill",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16AdropAdsBackfill0C8AdSourceO8rawValueSivp",
+            "mangledName": "$s16AdropAdsBackfill0C8AdSourceO8rawValueSivp",
+            "moduleName": "AdropAdsBackfill",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16AdropAdsBackfill0C8AdSourceO8rawValueSivg",
+                "mangledName": "$s16AdropAdsBackfill0C8AdSourceO8rawValueSivg",
+                "moduleName": "AdropAdsBackfill",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@AdropAdsBackfill@E@BackfillAdSource",
+        "mangledName": "$s16AdropAdsBackfill0C8AdSourceO",
+        "moduleName": "AdropAdsBackfill",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdropAdsBackfill",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdropAdsBackfill"
+      },
+      {
+        "kind": "Import",
+        "name": "AdropAds",
+        "printedName": "AdropAds",
+        "declKind": "Import",
+        "moduleName": "AdropAdsBackfill",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "AdropAdsBackfill"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BackfillInterstitialAdapter",
+        "printedName": "BackfillInterstitialAdapter",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "interstitialAd",
+            "printedName": "interstitialAd",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "GoogleMobileAds.InterstitialAd?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InterstitialAd",
+                    "printedName": "GoogleMobileAds.InterstitialAd",
+                    "usr": "c:objc(cs)GADInterstitialAd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16AdropAdsBackfill0C19InterstitialAdapterC14interstitialAd33_3EBB4B08FEBA3320757D39BA37698C9DLLSo015GADInterstitialG0CSgvp",
+            "mangledName": "$s16AdropAdsBackfill0C19InterstitialAdapterC14interstitialAd33_3EBB4B08FEBA3320757D39BA37698C9DLLSo015GADInterstitialG0CSgvp",
+            "moduleName": "AdropAdsBackfill",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 0,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "completion",
+            "printedName": "completion",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.String?, AdropAdsBackfill.BackfillAdSource, (any Swift.Error)?) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String?, AdropAdsBackfill.BackfillAdSource, (any Swift.Error)?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Swift.String?, AdropAdsBackfill.BackfillAdSource, (any Swift.Error)?)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.String?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "BackfillAdSource",
+                            "printedName": "AdropAdsBackfill.BackfillAdSource",
+                            "usr": "c:@M@AdropAdsBackfill@E@BackfillAdSource"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "(any Swift.Error)?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Error",
+                                "printedName": "any Swift.Error",
+                                "usr": "s:s5ErrorP"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16AdropAdsBackfill0C19InterstitialAdapterC10completion33_3EBB4B08FEBA3320757D39BA37698C9DLLySSSg_AA0C8AdSourceOs5Error_pSgtcSgvp",
+            "mangledName": "$s16AdropAdsBackfill0C19InterstitialAdapterC10completion33_3EBB4B08FEBA3320757D39BA37698C9DLLySSSg_AA0C8AdSourceOs5Error_pSgtcSgvp",
+            "moduleName": "AdropAdsBackfill",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 1,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "interstitialAdObject",
+            "printedName": "interstitialAdObject",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "AdropAds.AdropInterstitialAd?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16AdropAdsBackfill0C19InterstitialAdapterC20interstitialAdObject33_3EBB4B08FEBA3320757D39BA37698C9DLL0aB00adG0CSgvp",
+            "mangledName": "$s16AdropAdsBackfill0C19InterstitialAdapterC20interstitialAdObject33_3EBB4B08FEBA3320757D39BA37698C9DLL0aB00adG0CSgvp",
+            "moduleName": "AdropAdsBackfill",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 2,
+            "ownership": 1,
+            "hasStorage": true
+          },
+          {
+            "kind": "Function",
+            "name": "loadAdMobInterstitial",
+            "printedName": "loadAdMobInterstitial(admobUnitId:adropUnitId:interstitialAd:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdropInterstitialAd",
+                "printedName": "AdropAds.AdropInterstitialAd",
+                "usr": "c:@M@AdropAds@objc(cs)AdropInterstitialAd"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String?, AdropAdsBackfill.BackfillAdSource, (any Swift.Error)?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.String?, AdropAdsBackfill.BackfillAdSource, (any Swift.Error)?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BackfillAdSource",
+                        "printedName": "AdropAdsBackfill.BackfillAdSource",
+                        "usr": "c:@M@AdropAdsBackfill@E@BackfillAdSource"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any Swift.Error)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16AdropAdsBackfill0C19InterstitialAdapterC09loadAdMobD011admobUnitId05adropjK0012interstitialG010completionySS_SS0aB00adG0CySSSg_AA0cG6SourceOs5Error_pSgtctF",
+            "mangledName": "$s16AdropAdsBackfill0C19InterstitialAdapterC09loadAdMobD011admobUnitId05adropjK0012interstitialG010completionySS_SS0aB00adG0CySSSg_AA0cG6SourceOs5Error_pSgtctF",
+            "moduleName": "AdropAdsBackfill",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BackfillInterstitialAdapter",
+                "printedName": "AdropAdsBackfill.BackfillInterstitialAdapter",
+                "usr": "c:@M@AdropAdsBackfill@objc(cs)BackfillInterstitialAdapter"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AdropAdsBackfill@objc(cs)BackfillInterstitialAdapter(im)init",
+            "mangledName": "$s16AdropAdsBackfill0C19InterstitialAdapterCACycfc",
+            "moduleName": "AdropAdsBackfill",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "adDidRecordImpression",
+            "printedName": "adDidRecordImpression(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FullScreenPresentingAd",
+                "printedName": "any GoogleMobileAds.FullScreenPresentingAd",
+                "usr": "c:objc(pl)GADFullScreenPresentingAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdropAdsBackfill@objc(cs)BackfillInterstitialAdapter(im)adDidRecordImpression:",
+            "mangledName": "$s16AdropAdsBackfill0C19InterstitialAdapterC21adDidRecordImpressionyySo25GADFullScreenPresentingAd_pF",
+            "moduleName": "AdropAdsBackfill",
+            "isOpen": true,
+            "objc_name": "adDidRecordImpression:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "ad",
+            "printedName": "ad(_:didFailToPresentFullScreenContentWithError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FullScreenPresentingAd",
+                "printedName": "any GoogleMobileAds.FullScreenPresentingAd",
+                "usr": "c:objc(pl)GADFullScreenPresentingAd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdropAdsBackfill@objc(cs)BackfillInterstitialAdapter(im)ad:didFailToPresentFullScreenContentWithError:",
+            "mangledName": "$s16AdropAdsBackfill0C19InterstitialAdapterC2ad_42didFailToPresentFullScreenContentWithErrorySo07GADFullL12PresentingAd_p_s0O0_ptF",
+            "moduleName": "AdropAdsBackfill",
+            "isOpen": true,
+            "objc_name": "ad:didFailToPresentFullScreenContentWithError:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adWillPresentFullScreenContent",
+            "printedName": "adWillPresentFullScreenContent(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FullScreenPresentingAd",
+                "printedName": "any GoogleMobileAds.FullScreenPresentingAd",
+                "usr": "c:objc(pl)GADFullScreenPresentingAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdropAdsBackfill@objc(cs)BackfillInterstitialAdapter(im)adWillPresentFullScreenContent:",
+            "mangledName": "$s16AdropAdsBackfill0C19InterstitialAdapterC30adWillPresentFullScreenContentyySo07GADFullJ12PresentingAd_pF",
+            "moduleName": "AdropAdsBackfill",
+            "isOpen": true,
+            "objc_name": "adWillPresentFullScreenContent:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adDidDismissFullScreenContent",
+            "printedName": "adDidDismissFullScreenContent(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FullScreenPresentingAd",
+                "printedName": "any GoogleMobileAds.FullScreenPresentingAd",
+                "usr": "c:objc(pl)GADFullScreenPresentingAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdropAdsBackfill@objc(cs)BackfillInterstitialAdapter(im)adDidDismissFullScreenContent:",
+            "mangledName": "$s16AdropAdsBackfill0C19InterstitialAdapterC29adDidDismissFullScreenContentyySo07GADFullJ12PresentingAd_pF",
+            "moduleName": "AdropAdsBackfill",
+            "isOpen": true,
+            "objc_name": "adDidDismissFullScreenContent:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adWillDismissFullScreenContent",
+            "printedName": "adWillDismissFullScreenContent(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FullScreenPresentingAd",
+                "printedName": "any GoogleMobileAds.FullScreenPresentingAd",
+                "usr": "c:objc(pl)GADFullScreenPresentingAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdropAdsBackfill@objc(cs)BackfillInterstitialAdapter(im)adWillDismissFullScreenContent:",
+            "mangledName": "$s16AdropAdsBackfill0C19InterstitialAdapterC30adWillDismissFullScreenContentyySo07GADFullJ12PresentingAd_pF",
+            "moduleName": "AdropAdsBackfill",
+            "isOpen": true,
+            "objc_name": "adWillDismissFullScreenContent:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AdropAdsBackfill@objc(cs)BackfillInterstitialAdapter",
+        "mangledName": "$s16AdropAdsBackfill0C19InterstitialAdapterC",
+        "moduleName": "AdropAdsBackfill",
+        "isOpen": true,
+        "declAttributes": [
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdropAdsBackfill",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AdropAds",
+        "printedName": "AdropAds",
+        "declKind": "Import",
+        "moduleName": "AdropAdsBackfill",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "AdropAdsBackfill"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AdropBackfill",
+        "printedName": "AdropBackfill",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdropBackfill",
+                "printedName": "AdropAdsBackfill.AdropBackfill",
+                "usr": "c:@M@AdropAdsBackfill@objc(cs)AdropAdsBackfill"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AdropAdsBackfill@objc(cs)AdropAdsBackfill(cpy)shared",
+            "mangledName": "$s16AdropAdsBackfill0aC0C6sharedACvpZ",
+            "moduleName": "AdropAdsBackfill",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdropBackfill",
+                    "printedName": "AdropAdsBackfill.AdropBackfill",
+                    "usr": "c:@M@AdropAdsBackfill@objc(cs)AdropAdsBackfill"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AdropAdsBackfill@objc(cs)AdropAdsBackfill(cm)shared",
+                "mangledName": "$s16AdropAdsBackfill0aC0C6sharedACvgZ",
+                "moduleName": "AdropAdsBackfill",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "activate",
+            "printedName": "activate()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdropAdsBackfill@objc(cs)AdropAdsBackfill(cm)activate",
+            "mangledName": "$s16AdropAdsBackfill0aC0C8activateyyFZ",
+            "moduleName": "AdropAdsBackfill",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AdropAdsBackfill@objc(cs)AdropAdsBackfill",
+        "mangledName": "$s16AdropAdsBackfill0aC0C",
+        "moduleName": "AdropAdsBackfill",
+        "isOpen": true,
+        "objc_name": "AdropAdsBackfill",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdropAdsBackfill",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdropAdsBackfill"
+      },
+      {
+        "kind": "Import",
+        "name": "AdropAds",
+        "printedName": "AdropAds",
+        "declKind": "Import",
+        "moduleName": "AdropAdsBackfill",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "AdropAdsBackfill"
+      },
+      {
+        "kind": "Var",
+        "name": "admobNativeAdKey",
+        "printedName": "admobNativeAdKey",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "UInt8",
+            "printedName": "Swift.UInt8",
+            "usr": "s:s5UInt8V"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:16AdropAdsBackfill16admobNativeAdKeys5UInt8Vvp",
+        "mangledName": "$s16AdropAdsBackfill16admobNativeAdKeys5UInt8Vvp",
+        "moduleName": "AdropAdsBackfill",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "RawDocComment"
+        ],
+        "hasStorage": true
+      },
+      {
+        "kind": "Var",
+        "name": "needsAdMobInjectionKey",
+        "printedName": "needsAdMobInjectionKey",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "UInt8",
+            "printedName": "Swift.UInt8",
+            "usr": "s:s5UInt8V"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:16AdropAdsBackfill22needsAdMobInjectionKeys5UInt8Vvp",
+        "mangledName": "$s16AdropAdsBackfill22needsAdMobInjectionKeys5UInt8Vvp",
+        "moduleName": "AdropAdsBackfill",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage"
+        ],
+        "hasStorage": true
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BackfillNativeAdapter",
+        "printedName": "BackfillNativeAdapter",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "nativeAd",
+            "printedName": "nativeAd",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "GoogleMobileAds.NativeAd?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NativeAd",
+                    "printedName": "GoogleMobileAds.NativeAd",
+                    "usr": "c:objc(cs)GADNativeAd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16AdropAdsBackfill0C13NativeAdapterC8nativeAd33_6E2083FC06E16B42E6C39BC2BA191BD0LLSo09GADNativeG0CSgvp",
+            "mangledName": "$s16AdropAdsBackfill0C13NativeAdapterC8nativeAd33_6E2083FC06E16B42E6C39BC2BA191BD0LLSo09GADNativeG0CSgvp",
+            "moduleName": "AdropAdsBackfill",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 0,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "completion",
+            "printedName": "completion",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.String?, AdropAdsBackfill.BackfillAdSource, (any Swift.Error)?) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String?, AdropAdsBackfill.BackfillAdSource, (any Swift.Error)?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Swift.String?, AdropAdsBackfill.BackfillAdSource, (any Swift.Error)?)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.String?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "BackfillAdSource",
+                            "printedName": "AdropAdsBackfill.BackfillAdSource",
+                            "usr": "c:@M@AdropAdsBackfill@E@BackfillAdSource"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "(any Swift.Error)?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Error",
+                                "printedName": "any Swift.Error",
+                                "usr": "s:s5ErrorP"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16AdropAdsBackfill0C13NativeAdapterC10completion33_6E2083FC06E16B42E6C39BC2BA191BD0LLySSSg_AA0C8AdSourceOs5Error_pSgtcSgvp",
+            "mangledName": "$s16AdropAdsBackfill0C13NativeAdapterC10completion33_6E2083FC06E16B42E6C39BC2BA191BD0LLySSSg_AA0C8AdSourceOs5Error_pSgtcSgvp",
+            "moduleName": "AdropAdsBackfill",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 1,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "nativeAdObject",
+            "printedName": "nativeAdObject",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "AdropAds.AdropNativeAd?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16AdropAdsBackfill0C13NativeAdapterC14nativeAdObject33_6E2083FC06E16B42E6C39BC2BA191BD0LL0aB00adG0CSgvp",
+            "mangledName": "$s16AdropAdsBackfill0C13NativeAdapterC14nativeAdObject33_6E2083FC06E16B42E6C39BC2BA191BD0LL0aB00adG0CSgvp",
+            "moduleName": "AdropAdsBackfill",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 2,
+            "ownership": 1,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "adLoader",
+            "printedName": "adLoader",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "GoogleMobileAds.AdLoader?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdLoader",
+                    "printedName": "GoogleMobileAds.AdLoader",
+                    "usr": "c:objc(cs)GADAdLoader"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16AdropAdsBackfill0C13NativeAdapterC8adLoader33_6E2083FC06E16B42E6C39BC2BA191BD0LLSo05GADAdG0CSgvp",
+            "mangledName": "$s16AdropAdsBackfill0C13NativeAdapterC8adLoader33_6E2083FC06E16B42E6C39BC2BA191BD0LLSo05GADAdG0CSgvp",
+            "moduleName": "AdropAdsBackfill",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 3,
+            "hasStorage": true
+          },
+          {
+            "kind": "Function",
+            "name": "loadAdMobNative",
+            "printedName": "loadAdMobNative(admobUnitId:adropUnitId:nativeAd:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdropNativeAd",
+                "printedName": "AdropAds.AdropNativeAd",
+                "usr": "c:@M@AdropAds@objc(cs)AdropNativeAd"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String?, AdropAdsBackfill.BackfillAdSource, (any Swift.Error)?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.String?, AdropAdsBackfill.BackfillAdSource, (any Swift.Error)?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BackfillAdSource",
+                        "printedName": "AdropAdsBackfill.BackfillAdSource",
+                        "usr": "c:@M@AdropAdsBackfill@E@BackfillAdSource"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any Swift.Error)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16AdropAdsBackfill0C13NativeAdapterC09loadAdMobD011admobUnitId05adropjK006nativeG010completionySS_SS0aB00adG0CySSSg_AA0cG6SourceOs5Error_pSgtctF",
+            "mangledName": "$s16AdropAdsBackfill0C13NativeAdapterC09loadAdMobD011admobUnitId05adropjK006nativeG010completionySS_SS0aB00adG0CySSSg_AA0cG6SourceOs5Error_pSgtctF",
+            "moduleName": "AdropAdsBackfill",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BackfillNativeAdapter",
+                "printedName": "AdropAdsBackfill.BackfillNativeAdapter",
+                "usr": "c:@M@AdropAdsBackfill@objc(cs)BackfillNativeAdapter"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AdropAdsBackfill@objc(cs)BackfillNativeAdapter(im)init",
+            "mangledName": "$s16AdropAdsBackfill0C13NativeAdapterCACycfc",
+            "moduleName": "AdropAdsBackfill",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "adLoader",
+            "printedName": "adLoader(_:didReceive:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdLoader",
+                "printedName": "GoogleMobileAds.AdLoader",
+                "usr": "c:objc(cs)GADAdLoader"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NativeAd",
+                "printedName": "GoogleMobileAds.NativeAd",
+                "usr": "c:objc(cs)GADNativeAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdropAdsBackfill@objc(cs)BackfillNativeAdapter(im)adLoader:didReceiveNativeAd:",
+            "mangledName": "$s16AdropAdsBackfill0C13NativeAdapterC8adLoader_10didReceiveySo05GADAdG0C_So11GADNativeAdCtF",
+            "moduleName": "AdropAdsBackfill",
+            "isOpen": true,
+            "objc_name": "adLoader:didReceiveNativeAd:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adLoader",
+            "printedName": "adLoader(_:didFailToReceiveAdWithError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdLoader",
+                "printedName": "GoogleMobileAds.AdLoader",
+                "usr": "c:objc(cs)GADAdLoader"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdropAdsBackfill@objc(cs)BackfillNativeAdapter(im)adLoader:didFailToReceiveAdWithError:",
+            "mangledName": "$s16AdropAdsBackfill0C13NativeAdapterC8adLoader_27didFailToReceiveAdWithErrorySo05GADAdG0C_s0N0_ptF",
+            "moduleName": "AdropAdsBackfill",
+            "isOpen": true,
+            "objc_name": "adLoader:didFailToReceiveAdWithError:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AdropAdsBackfill@objc(cs)BackfillNativeAdapter",
+        "mangledName": "$s16AdropAdsBackfill0C13NativeAdapterC",
+        "moduleName": "AdropAdsBackfill",
+        "isOpen": true,
+        "declAttributes": [
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AdropNativeAdView",
+        "printedName": "AdropNativeAdView",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "enableBackfillSupport",
+            "printedName": "enableBackfillSupport()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8AdropAds0A12NativeAdViewC0aB8BackfillE06enableF7SupportyyFZ",
+            "mangledName": "$s8AdropAds0A12NativeAdViewC0aB8BackfillE06enableF7SupportyyFZ",
+            "moduleName": "AdropAdsBackfill",
+            "static": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "nativeAdDidRecordImpression",
+            "printedName": "nativeAdDidRecordImpression(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NativeAd",
+                "printedName": "GoogleMobileAds.NativeAd",
+                "usr": "c:objc(cs)GADNativeAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdropAdsBackfill@AdropAds@objc(cs)AdropNativeAdView(im)nativeAdDidRecordImpression:",
+            "mangledName": "$s8AdropAds0A12NativeAdViewC0aB8BackfillE06nativeD19DidRecordImpressionyySo09GADNativeD0CF",
+            "moduleName": "AdropAdsBackfill",
+            "isOpen": true,
+            "objc_name": "nativeAdDidRecordImpression:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "nativeAdDidRecordClick",
+            "printedName": "nativeAdDidRecordClick(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NativeAd",
+                "printedName": "GoogleMobileAds.NativeAd",
+                "usr": "c:objc(cs)GADNativeAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdropAdsBackfill@AdropAds@objc(cs)AdropNativeAdView(im)nativeAdDidRecordClick:",
+            "mangledName": "$s8AdropAds0A12NativeAdViewC0aB8BackfillE06nativeD14DidRecordClickyySo09GADNativeD0CF",
+            "moduleName": "AdropAdsBackfill",
+            "isOpen": true,
+            "objc_name": "nativeAdDidRecordClick:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AdropAds@objc(cs)AdropNativeAdView",
+        "mangledName": "$s8AdropAds0A12NativeAdViewC",
+        "moduleName": "AdropAds",
+        "isOpen": true,
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "isExternal": true,
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "VisibilityTrackerDelegate",
+            "printedName": "VisibilityTrackerDelegate",
+            "usr": "s:8AdropAds25VisibilityTrackerDelegateP",
+            "mangledName": "$s8AdropAds25VisibilityTrackerDelegateP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/AdropNativeAdView+Backfill.swift",
+      "kind": "IntegerLiteral",
+      "offset": 670,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/BackfillNetworkKind.swift",
+      "kind": "StringLiteral",
+      "offset": 300,
+      "length": 7,
+      "value": "\"admob\""
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/BackfillNetworkKind.swift",
+      "kind": "StringLiteral",
+      "offset": 327,
+      "length": 9,
+      "value": "\"adsense\""
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/BackfillNetworkKind.swift",
+      "kind": "StringLiteral",
+      "offset": 355,
+      "length": 8,
+      "value": "\"criteo\""
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/BackfillNetworkKind.swift",
+      "kind": "StringLiteral",
+      "offset": 386,
+      "length": 12,
+      "value": "\"anymanager\""
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/BackfillManager.swift",
+      "kind": "FloatLiteral",
+      "offset": 295,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/BackfillManager.swift",
+      "kind": "Dictionary",
+      "offset": 430,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/BackfillManager.swift",
+      "kind": "StringLiteral",
+      "offset": 958,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/BackfillBannerAdapter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 264,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/BackfillAdSource.swift",
+      "kind": "IntegerLiteral",
+      "offset": 171,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/BackfillAdSource.swift",
+      "kind": "IntegerLiteral",
+      "offset": 213,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/BackfillNativeAdapter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 313,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/BackfillNativeAdapter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 351,
+      "length": 1,
+      "value": "0"
+    }
+  ]
+}

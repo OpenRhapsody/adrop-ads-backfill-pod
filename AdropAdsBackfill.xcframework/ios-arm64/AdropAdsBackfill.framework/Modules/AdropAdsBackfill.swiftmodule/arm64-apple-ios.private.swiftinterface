@@ -1,0 +1,45 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.2.1 effective-5.10 (swiftlang-6.2.1.4.8 clang-1700.4.4.1)
+// swift-module-flags: -target arm64-apple-ios26.1 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-upcoming-feature DisableOutwardActorInference -enable-upcoming-feature InferSendableFromCaptures -enable-upcoming-feature GlobalActorIsolatedTypesUsability -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature InferIsolatedConformances -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name AdropAdsBackfill
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.1
+@_spi(AdropCore_1_4_1F680) import AdropAds
+import Foundation
+import GoogleMobileAds
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+extension AdropAds.AdropNativeAdView {
+  @_Concurrency.MainActor @preconcurrency public static func enableBackfillSupport()
+}
+extension AdropAds.AdropNativeAdView : @retroactive GoogleMobileAds.NativeAdDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func nativeAdDidRecordImpression(_ nativeAd: GoogleMobileAds.NativeAd)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func nativeAdDidRecordClick(_ nativeAd: GoogleMobileAds.NativeAd)
+}
+@_hasMissingDesignatedInitializers public class BackfillManager {
+  public static let shared: AdropAdsBackfill.BackfillManager
+  @objc deinit
+}
+@objc public enum BackfillAdSource : Swift.Int {
+  case direct = 0
+  case backfill = 1
+  public var description: Swift.String {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.Int)
+  #endif
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc(AdropAdsBackfill) public class AdropBackfill : ObjectiveC.NSObject {
+  @objc public static let shared: AdropAdsBackfill.AdropBackfill
+  @objc public static func activate()
+  @objc deinit
+}
+extension AdropAdsBackfill.BackfillAdSource : Swift.Equatable {}
+extension AdropAdsBackfill.BackfillAdSource : Swift.Hashable {}
+extension AdropAdsBackfill.BackfillAdSource : Swift.RawRepresentable {}
