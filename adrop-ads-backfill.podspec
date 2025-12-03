@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'adrop-ads-backfill'
-  s.version          = '1.7.1-alpha.1'
+  s.version          = '1.7.1-alpha.2'
   s.summary          = 'Adrop ads backfill'
   s.homepage         = 'https://adrop.io'
 
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.dependency 'adrop-ads', '~> 1.7.0'
   s.dependency 'Google-Mobile-Ads-SDK', '~> 12.2.0'
   s.dependency 'GoogleMobileAdsMediationPangle'
-  s.dependency 'GoogleMobileAdsMediationFacebook'
+#  s.dependency 'GoogleMobileAdsMediationFacebook'
   s.dependency 'GoogleMobileAdsMediationUnity'
   s.dependency 'GoogleMobileAdsMediationInMobi'
   s.dependency 'GoogleMobileAdsMediationVungle'
