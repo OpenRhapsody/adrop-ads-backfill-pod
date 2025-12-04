@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'adrop-ads-backfill'
-  s.version          = '1.7.1-alpha.2'
+  s.version          = '1.7.1'
   s.summary          = 'Adrop ads backfill'
   s.homepage         = 'https://adrop.io'
 
