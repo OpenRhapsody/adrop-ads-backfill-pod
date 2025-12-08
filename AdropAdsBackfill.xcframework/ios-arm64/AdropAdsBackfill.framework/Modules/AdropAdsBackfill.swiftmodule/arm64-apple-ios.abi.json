@@ -183,59 +183,6 @@
         "printedName": "AdropBackfill",
         "children": [
           {
-            "kind": "Var",
-            "name": "shared",
-            "printedName": "shared",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "AdropBackfill",
-                "printedName": "AdropAdsBackfill.AdropBackfill",
-                "usr": "c:@M@AdropAdsBackfill@objc(cs)AdropBackfill"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@AdropAdsBackfill@objc(cs)AdropBackfill(cpy)shared",
-            "mangledName": "$s16AdropAdsBackfill0aC0C6sharedACvpZ",
-            "moduleName": "AdropAdsBackfill",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl",
-              "ObjC"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AdropBackfill",
-                    "printedName": "AdropAdsBackfill.AdropBackfill",
-                    "usr": "c:@M@AdropAdsBackfill@objc(cs)AdropBackfill"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@AdropAdsBackfill@objc(cs)AdropBackfill(cm)shared",
-                "mangledName": "$s16AdropAdsBackfill0aC0C6sharedACvgZ",
-                "moduleName": "AdropAdsBackfill",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final",
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
             "kind": "Function",
             "name": "activate",
             "printedName": "activate()",
@@ -419,88 +366,6 @@
         "printedName": "GoogleMobileAds",
         "declKind": "Import",
         "moduleName": "AdropAdsBackfill"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "BackfillManager",
-        "printedName": "BackfillManager",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "shared",
-            "printedName": "shared",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "BackfillManager",
-                "printedName": "AdropAdsBackfill.BackfillManager",
-                "usr": "s:16AdropAdsBackfill0C7ManagerC"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:16AdropAdsBackfill0C7ManagerC6sharedACvpZ",
-            "mangledName": "$s16AdropAdsBackfill0C7ManagerC6sharedACvpZ",
-            "moduleName": "AdropAdsBackfill",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "BackfillManager",
-                    "printedName": "AdropAdsBackfill.BackfillManager",
-                    "usr": "s:16AdropAdsBackfill0C7ManagerC"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:16AdropAdsBackfill0C7ManagerC6sharedACvgZ",
-                "mangledName": "$s16AdropAdsBackfill0C7ManagerC6sharedACvgZ",
-                "moduleName": "AdropAdsBackfill",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:16AdropAdsBackfill0C7ManagerC",
-        "mangledName": "$s16AdropAdsBackfill0C7ManagerC",
-        "moduleName": "AdropAdsBackfill",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "hasMissingDesignatedInitializers": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
-        ]
       },
       {
         "kind": "Import",
@@ -1073,21 +938,21 @@
     {
       "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/BackfillManager.swift",
       "kind": "FloatLiteral",
-      "offset": 295,
+      "offset": 288,
       "length": 3,
       "value": "3.0"
     },
     {
       "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/BackfillManager.swift",
       "kind": "Dictionary",
-      "offset": 430,
+      "offset": 423,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/BackfillManager.swift",
       "kind": "StringLiteral",
-      "offset": 958,
+      "offset": 951,
       "length": 2,
       "value": "\"\""
     },

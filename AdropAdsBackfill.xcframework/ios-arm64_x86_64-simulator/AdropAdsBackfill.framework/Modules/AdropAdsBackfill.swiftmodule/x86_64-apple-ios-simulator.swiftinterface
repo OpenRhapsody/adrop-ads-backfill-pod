@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
 // swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-upcoming-feature MemberImportVisibility -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name AdropAdsBackfill
-// swift-module-flags-ignorable:  -interface-compiler-version 6.1.2
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
 import AdropAds
 import Foundation
 import GoogleMobileAds
@@ -11,7 +11,6 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc(AdropBackfill) public class AdropBackfill : ObjectiveC.NSObject {
-  @objc public static let shared: AdropAdsBackfill.AdropBackfill
   @objc public static func activate()
   @objc deinit
 }
@@ -21,10 +20,6 @@ extension AdropAds.AdropNativeAdView {
 extension AdropAds.AdropNativeAdView : @retroactive GoogleMobileAds.NativeAdDelegate {
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func nativeAdDidRecordImpression(_ nativeAd: GoogleMobileAds.NativeAd)
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func nativeAdDidRecordClick(_ nativeAd: GoogleMobileAds.NativeAd)
-}
-@_hasMissingDesignatedInitializers public class BackfillManager {
-  public static let shared: AdropAdsBackfill.BackfillManager
-  @objc deinit
 }
 @objc public enum BackfillAdSource : Swift.Int {
   case direct = 0

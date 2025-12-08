@@ -3726,16 +3726,14 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@AdropAdsBackfill@objc(cs)AdropBackfill(cpy)shared",
+            "usr": "s:16AdropAdsBackfill0aC0C6sharedACvpZ",
             "mangledName": "$s16AdropAdsBackfill0aC0C6sharedACvpZ",
             "moduleName": "AdropAdsBackfill",
             "static": true,
             "declAttributes": [
               "HasInitialValue",
               "Final",
-              "HasStorage",
-              "AccessControl",
-              "ObjC"
+              "HasStorage"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -3753,14 +3751,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@AdropAdsBackfill@objc(cs)AdropBackfill(cm)shared",
+                "usr": "s:16AdropAdsBackfill0aC0C6sharedACvgZ",
                 "mangledName": "$s16AdropAdsBackfill0aC0C6sharedACvgZ",
                 "moduleName": "AdropAdsBackfill",
                 "static": true,
                 "implicit": true,
                 "declAttributes": [
-                  "Final",
-                  "ObjC"
+                  "Final"
                 ],
                 "accessorKind": "get"
               }
@@ -4754,11 +4751,78 @@
                 "static": true,
                 "implicit": true,
                 "declAttributes": [
+                  "Transparent",
                   "Final"
                 ],
                 "accessorKind": "get"
               }
             ]
+          },
+          {
+            "kind": "Var",
+            "name": "timeout",
+            "printedName": "timeout",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16AdropAdsBackfill0C7ManagerC7timeout33_E5920267CB2AAC93905EB3CC0C474B9ELLSdvp",
+            "mangledName": "$s16AdropAdsBackfill0C7ManagerC7timeout33_E5920267CB2AAC93905EB3CC0C474B9ELLSdvp",
+            "moduleName": "AdropAdsBackfill",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 0,
+            "isLet": true,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "activeAdapters",
+            "printedName": "activeAdapters",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16AdropAdsBackfill0C7ManagerC14activeAdapters33_E5920267CB2AAC93905EB3CC0C474B9ELLSDySSypGvp",
+            "mangledName": "$s16AdropAdsBackfill0C7ManagerC14activeAdapters33_E5920267CB2AAC93905EB3CC0C474B9ELLSDySSypGvp",
+            "moduleName": "AdropAdsBackfill",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 1,
+            "hasStorage": true
           },
           {
             "kind": "Function",
@@ -5316,10 +5380,6 @@
         "mangledName": "$s16AdropAdsBackfill0C7ManagerC",
         "moduleName": "AdropAdsBackfill",
         "isOpen": true,
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "hasMissingDesignatedInitializers": true,
         "conformances": [
           {
             "kind": "Conformance",
@@ -7562,21 +7622,21 @@
     {
       "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/BackfillManager.swift",
       "kind": "FloatLiteral",
-      "offset": 295,
+      "offset": 288,
       "length": 3,
       "value": "3.0"
     },
     {
       "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/BackfillManager.swift",
       "kind": "Dictionary",
-      "offset": 430,
+      "offset": 423,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/BackfillManager.swift",
       "kind": "StringLiteral",
-      "offset": 958,
+      "offset": 951,
       "length": 2,
       "value": "\"\""
     },
