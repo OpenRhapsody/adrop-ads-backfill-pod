@@ -2701,6 +2701,186 @@
             "hasStorage": true
           },
           {
+            "kind": "Var",
+            "name": "adWindow",
+            "printedName": "adWindow",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIWindow?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIWindow",
+                    "printedName": "UIKit.UIWindow",
+                    "usr": "c:objc(cs)UIWindow"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16AdropAdsBackfill0C15RewardedAdapterC8adWindow33_7A5855FC4788D18D58278101221D7941LLSo8UIWindowCSgvp",
+            "mangledName": "$s16AdropAdsBackfill0C15RewardedAdapterC8adWindow33_7A5855FC4788D18D58278101221D7941LLSo8UIWindowCSgvp",
+            "moduleName": "AdropAdsBackfill",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 4,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "onDismiss",
+            "printedName": "onDismiss",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16AdropAdsBackfill0C15RewardedAdapterC9onDismissyycSgvp",
+            "mangledName": "$s16AdropAdsBackfill0C15RewardedAdapterC9onDismissyycSgvp",
+            "moduleName": "AdropAdsBackfill",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 5,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16AdropAdsBackfill0C15RewardedAdapterC9onDismissyycSgvg",
+                "mangledName": "$s16AdropAdsBackfill0C15RewardedAdapterC9onDismissyycSgvg",
+                "moduleName": "AdropAdsBackfill",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16AdropAdsBackfill0C15RewardedAdapterC9onDismissyycSgvs",
+                "mangledName": "$s16AdropAdsBackfill0C15RewardedAdapterC9onDismissyycSgvs",
+                "moduleName": "AdropAdsBackfill",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16AdropAdsBackfill0C15RewardedAdapterC9onDismissyycSgvM",
+                "mangledName": "$s16AdropAdsBackfill0C15RewardedAdapterC9onDismissyycSgvM",
+                "moduleName": "AdropAdsBackfill",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "loadAdMobRewarded",
             "printedName": "loadAdMobRewarded(admobUnitId:adropUnitId:rewardedAd:completion:)",
@@ -2838,6 +3018,38 @@
             "moduleName": "AdropAdsBackfill",
             "isOpen": true,
             "objc_name": "adDidRecordImpression:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adDidRecordClick",
+            "printedName": "adDidRecordClick(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FullScreenPresentingAd",
+                "printedName": "any GoogleMobileAds.FullScreenPresentingAd",
+                "usr": "c:objc(pl)GADFullScreenPresentingAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdropAdsBackfill@objc(cs)BackfillRewardedAdapter(im)adDidRecordClick:",
+            "mangledName": "$s16AdropAdsBackfill0C15RewardedAdapterC16adDidRecordClickyySo25GADFullScreenPresentingAd_pF",
+            "moduleName": "AdropAdsBackfill",
+            "isOpen": true,
+            "objc_name": "adDidRecordClick:",
             "declAttributes": [
               "Dynamic",
               "ObjC",
@@ -6243,6 +6455,186 @@
             "hasStorage": true
           },
           {
+            "kind": "Var",
+            "name": "adWindow",
+            "printedName": "adWindow",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIWindow?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIWindow",
+                    "printedName": "UIKit.UIWindow",
+                    "usr": "c:objc(cs)UIWindow"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16AdropAdsBackfill0C19InterstitialAdapterC8adWindow33_3EBB4B08FEBA3320757D39BA37698C9DLLSo8UIWindowCSgvp",
+            "mangledName": "$s16AdropAdsBackfill0C19InterstitialAdapterC8adWindow33_3EBB4B08FEBA3320757D39BA37698C9DLLSo8UIWindowCSgvp",
+            "moduleName": "AdropAdsBackfill",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 3,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "onDismiss",
+            "printedName": "onDismiss",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16AdropAdsBackfill0C19InterstitialAdapterC9onDismissyycSgvp",
+            "mangledName": "$s16AdropAdsBackfill0C19InterstitialAdapterC9onDismissyycSgvp",
+            "moduleName": "AdropAdsBackfill",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 4,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16AdropAdsBackfill0C19InterstitialAdapterC9onDismissyycSgvg",
+                "mangledName": "$s16AdropAdsBackfill0C19InterstitialAdapterC9onDismissyycSgvg",
+                "moduleName": "AdropAdsBackfill",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16AdropAdsBackfill0C19InterstitialAdapterC9onDismissyycSgvs",
+                "mangledName": "$s16AdropAdsBackfill0C19InterstitialAdapterC9onDismissyycSgvs",
+                "moduleName": "AdropAdsBackfill",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16AdropAdsBackfill0C19InterstitialAdapterC9onDismissyycSgvM",
+                "mangledName": "$s16AdropAdsBackfill0C19InterstitialAdapterC9onDismissyycSgvM",
+                "moduleName": "AdropAdsBackfill",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "loadAdMobInterstitial",
             "printedName": "loadAdMobInterstitial(admobUnitId:adropUnitId:interstitialAd:completion:)",
@@ -6380,6 +6772,38 @@
             "moduleName": "AdropAdsBackfill",
             "isOpen": true,
             "objc_name": "adDidRecordImpression:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adDidRecordClick",
+            "printedName": "adDidRecordClick(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FullScreenPresentingAd",
+                "printedName": "any GoogleMobileAds.FullScreenPresentingAd",
+                "usr": "c:objc(pl)GADFullScreenPresentingAd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@AdropAdsBackfill@objc(cs)BackfillInterstitialAdapter(im)adDidRecordClick:",
+            "mangledName": "$s16AdropAdsBackfill0C19InterstitialAdapterC16adDidRecordClickyySo25GADFullScreenPresentingAd_pF",
+            "moduleName": "AdropAdsBackfill",
+            "isOpen": true,
+            "objc_name": "adDidRecordClick:",
             "declAttributes": [
               "Dynamic",
               "ObjC",
