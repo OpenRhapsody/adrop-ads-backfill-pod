@@ -5086,22 +5086,8 @@
       },
       {
         "kind": "Import",
-        "name": "VungleAdsSDK",
-        "printedName": "VungleAdsSDK",
-        "declKind": "Import",
-        "moduleName": "AdropAdsBackfill"
-      },
-      {
-        "kind": "Import",
         "name": "UnityAds",
         "printedName": "UnityAds",
-        "declKind": "Import",
-        "moduleName": "AdropAdsBackfill"
-      },
-      {
-        "kind": "Import",
-        "name": "InMobiAdapter",
-        "printedName": "InMobiAdapter",
         "declKind": "Import",
         "moduleName": "AdropAdsBackfill"
       },
