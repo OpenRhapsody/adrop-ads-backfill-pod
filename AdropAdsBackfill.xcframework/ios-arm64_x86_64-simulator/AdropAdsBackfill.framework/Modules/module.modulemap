@@ -1,0 +1,4 @@
+framework module AdropAdsBackfill {
+  header "AdropAdsBackfill-Swift.h"
+  requires objc
+}

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'adrop-ads-backfill'
-  s.version          = '1.7.2'
+  s.version          = '1.7.3'
   s.summary          = 'Adrop ads backfill'
   s.homepage         = 'https://adrop.io'
 
@@ -21,10 +21,10 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '13.0'
   s.ios.vendored_frameworks = 'AdropAdsBackfill.xcframework'
 
-  s.dependency 'adrop-ads', '~> 1.7.2'
+  s.dependency 'adrop-ads', '~> 1.7.0'
   s.dependency 'Google-Mobile-Ads-SDK', '~> 12.2.0'
+  s.dependency 'GoogleUserMessagingPlatform', '~> 3.1.0'
   s.dependency 'GoogleMobileAdsMediationPangle'
-#  s.dependency 'GoogleMobileAdsMediationFacebook'
   s.dependency 'GoogleMobileAdsMediationUnity'
   s.dependency 'GoogleMobileAdsMediationInMobi'
   s.dependency 'GoogleMobileAdsMediationVungle'

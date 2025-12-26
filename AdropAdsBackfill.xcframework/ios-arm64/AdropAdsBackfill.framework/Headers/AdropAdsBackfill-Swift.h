@@ -282,6 +282,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
 @import AdropAds;
+@import Foundation;
 @import GoogleMobileAds;
 @import ObjectiveC;
 #endif
@@ -319,6 +320,23 @@ SWIFT_CLASS_NAMED("AdropBackfill")
 @interface AdropNativeAdView (SWIFT_EXTENSION(AdropAdsBackfill)) <GADNativeAdDelegate>
 - (void)nativeAdDidRecordImpression:(GADNativeAd * _Nonnull)nativeAd;
 - (void)nativeAdDidRecordClick:(GADNativeAd * _Nonnull)nativeAd;
+@end
+
+@class NSString;
+@class UIViewController;
+@class AdropConsentResult;
+/// Google UMP를 사용한 AdropConsentManager 구현체
+SWIFT_CLASS("_TtC16AdropAdsBackfill22AdropUMPConsentManager")
+@interface AdropUMPConsentManager : NSObject <AdropConsentManager>
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) AdropUMPConsentManager * _Nonnull shared;)
++ (AdropUMPConsentManager * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+- (void)setDebugSettingsWithTestDeviceIdentifiers:(NSArray<NSString *> * _Nonnull)testDeviceIdentifiers geography:(enum AdropConsentDebugGeography)geography;
+- (void)requestConsentInfoUpdateFrom:(UIViewController * _Nullable)viewController completion:(void (^ _Nonnull)(AdropConsentResult * _Nonnull))completion;
+- (enum AdropConsentStatus)getConsentStatus SWIFT_WARN_UNUSED_RESULT;
+- (BOOL)canRequestAds SWIFT_WARN_UNUSED_RESULT;
+- (void)reset;
 @end
 
 typedef SWIFT_ENUM(NSInteger, BackfillAdSource, open) {
