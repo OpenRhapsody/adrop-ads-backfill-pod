@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'adrop-ads-backfill'
-  s.version          = '1.7.5'
+  s.version          = '1.7.6-alpha.0'
   s.summary          = 'Adrop ads backfill'
   s.homepage         = 'https://adrop.io'
 
@@ -22,11 +22,12 @@ Pod::Spec.new do |s|
   s.ios.vendored_frameworks = 'AdropAdsBackfill.xcframework'
 
   s.dependency 'adrop-ads', '~> 1.7.3'
-  s.dependency 'Google-Mobile-Ads-SDK', '~> 12.2.0'
-  s.dependency 'GoogleUserMessagingPlatform', '~> 3.1.0'
+  s.dependency 'Google-Mobile-Ads-SDK', '~> 12.2'
+  s.dependency 'GoogleUserMessagingPlatform', '~> 3.1'
   s.dependency 'GoogleMobileAdsMediationPangle'
   s.dependency 'GoogleMobileAdsMediationUnity'
   s.dependency 'GoogleMobileAdsMediationInMobi'
   s.dependency 'GoogleMobileAdsMediationVungle'
-  s.dependency 'GoogleMobileAdsMediationAppLovin'
+
+  s.user_target_xcconfig = { 'OTHER_LDFLAGS' => '$(inherited) -ObjC' }
 end
