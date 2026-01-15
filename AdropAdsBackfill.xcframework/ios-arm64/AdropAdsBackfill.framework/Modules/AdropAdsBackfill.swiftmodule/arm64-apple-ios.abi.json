@@ -656,20 +656,6 @@
         "moduleName": "AdropAdsBackfill"
       },
       {
-        "kind": "Import",
-        "name": "GoogleMobileAds",
-        "printedName": "GoogleMobileAds",
-        "declKind": "Import",
-        "moduleName": "AdropAdsBackfill"
-      },
-      {
-        "kind": "Import",
-        "name": "UserMessagingPlatform",
-        "printedName": "UserMessagingPlatform",
-        "declKind": "Import",
-        "moduleName": "AdropAdsBackfill"
-      },
-      {
         "kind": "TypeDecl",
         "name": "AdropUMPConsentManager",
         "printedName": "AdropUMPConsentManager",
@@ -1011,6 +997,16 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdropAdsBackfill",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -1266,7 +1262,7 @@
       "kind": "StringLiteral",
       "offset": 12843,
       "length": 15,
-      "value": "\"1.7.8-alpha.3\""
+      "value": "\"1.7.8-alpha.4\""
     },
     {
       "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/BackfillAdSource.swift",
@@ -1334,7 +1330,7 @@
     {
       "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/AdropUMPConsentManager.swift",
       "kind": "Array",
-      "offset": 457,
+      "offset": 504,
       "length": 2,
       "value": "[]"
     },
@@ -1344,6 +1340,265 @@
       "offset": 568,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/UMPDynamicLoader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1600,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/UMPDynamicLoader.swift",
+      "kind": "StringLiteral",
+      "offset": 1649,
+      "length": 15,
+      "value": "\"consentStatus\""
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/UMPDynamicLoader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1729,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/UMPDynamicLoader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2242,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/UMPDynamicLoader.swift",
+      "kind": "StringLiteral",
+      "offset": 2291,
+      "length": 12,
+      "value": "\"formStatus\""
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/UMPDynamicLoader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2368,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/UMPDynamicLoader.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2760,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/UMPDynamicLoader.swift",
+      "kind": "StringLiteral",
+      "offset": 2813,
+      "length": 15,
+      "value": "\"canRequestAds\""
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/UMPDynamicLoader.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2893,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/UMPDynamicLoader.swift",
+      "kind": "StringLiteral",
+      "offset": 3721,
+      "length": 18,
+      "value": "\"UMPDynamicLoader\""
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/UMPDynamicLoader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3747,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/UMPDynamicLoader.swift",
+      "kind": "StringLiteral",
+      "offset": 3789,
+      "length": 19,
+      "value": "\"UMP not available\""
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/UMPDynamicLoader.swift",
+      "kind": "StringLiteral",
+      "offset": 3886,
+      "length": 59,
+      "value": "\"requestConsentInfoUpdateWithParameters:completionHandler:\""
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/UMPDynamicLoader.swift",
+      "kind": "StringLiteral",
+      "offset": 4042,
+      "length": 18,
+      "value": "\"UMPDynamicLoader\""
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/UMPDynamicLoader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4068,
+      "length": 2,
+      "value": "-2"
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/UMPDynamicLoader.swift",
+      "kind": "StringLiteral",
+      "offset": 4110,
+      "length": 40,
+      "value": "\"requestConsentInfoUpdate not available\""
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/UMPDynamicLoader.swift",
+      "kind": "StringLiteral",
+      "offset": 4766,
+      "length": 16,
+      "value": "\"UMPConsentForm\""
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/UMPDynamicLoader.swift",
+      "kind": "StringLiteral",
+      "offset": 4830,
+      "length": 18,
+      "value": "\"UMPDynamicLoader\""
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/UMPDynamicLoader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4856,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/UMPDynamicLoader.swift",
+      "kind": "StringLiteral",
+      "offset": 4898,
+      "length": 30,
+      "value": "\"UMPConsentForm not available\""
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/UMPDynamicLoader.swift",
+      "kind": "StringLiteral",
+      "offset": 5006,
+      "length": 63,
+      "value": "\"loadAndPresentIfRequiredFromViewController:completionHandler:\""
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/UMPDynamicLoader.swift",
+      "kind": "StringLiteral",
+      "offset": 5171,
+      "length": 18,
+      "value": "\"UMPDynamicLoader\""
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/UMPDynamicLoader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5197,
+      "length": 2,
+      "value": "-2"
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/UMPDynamicLoader.swift",
+      "kind": "StringLiteral",
+      "offset": 5239,
+      "length": 40,
+      "value": "\"loadAndPresentIfRequired not available\""
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/UMPDynamicLoader.swift",
+      "kind": "StringLiteral",
+      "offset": 7565,
+      "length": 15,
+      "value": "\"setGeography:\""
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/UMPDynamicLoader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8066,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/UMPDynamicLoader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8098,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/UMPDynamicLoader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8133,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/UMPDynamicLoader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8165,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/UMPDynamicLoader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8266,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/UMPDynamicLoader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8299,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/UMPDynamicLoader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8334,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/UMPDynamicLoader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8444,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/UMPDynamicLoader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8471,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/UMPDynamicLoader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8501,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/UMPDynamicLoader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8541,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/UMPDynamicLoader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8570,
+      "length": 1,
+      "value": "4"
     },
     {
       "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/BackfillNetworkKind.swift",

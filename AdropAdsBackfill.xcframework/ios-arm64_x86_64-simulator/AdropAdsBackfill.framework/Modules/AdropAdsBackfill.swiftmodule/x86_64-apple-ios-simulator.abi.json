@@ -4868,20 +4868,6 @@
         "moduleName": "AdropAdsBackfill"
       },
       {
-        "kind": "Import",
-        "name": "GoogleMobileAds",
-        "printedName": "GoogleMobileAds",
-        "declKind": "Import",
-        "moduleName": "AdropAdsBackfill"
-      },
-      {
-        "kind": "Import",
-        "name": "UserMessagingPlatform",
-        "printedName": "UserMessagingPlatform",
-        "declKind": "Import",
-        "moduleName": "AdropAdsBackfill"
-      },
-      {
         "kind": "TypeDecl",
         "name": "AdropUMPConsentManager",
         "printedName": "AdropUMPConsentManager",
@@ -6738,6 +6724,1267 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdropAdsBackfill",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UMPDynamicLoader",
+        "printedName": "UMPDynamicLoader",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "isAvailable",
+            "printedName": "isAvailable",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16AdropAdsBackfill16UMPDynamicLoaderO11isAvailableSbvpZ",
+            "mangledName": "$s16AdropAdsBackfill16UMPDynamicLoaderO11isAvailableSbvpZ",
+            "moduleName": "AdropAdsBackfill",
+            "static": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16AdropAdsBackfill16UMPDynamicLoaderO11isAvailableSbvgZ",
+                "mangledName": "$s16AdropAdsBackfill16UMPDynamicLoaderO11isAvailableSbvgZ",
+                "moduleName": "AdropAdsBackfill",
+                "static": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "getConsentInformationShared",
+            "printedName": "getConsentInformationShared()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ObjectiveC.NSObject?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSObject",
+                    "printedName": "ObjectiveC.NSObject",
+                    "usr": "c:objc(cs)NSObject"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16AdropAdsBackfill16UMPDynamicLoaderO27getConsentInformationSharedSo8NSObjectCSgyFZ",
+            "mangledName": "$s16AdropAdsBackfill16UMPDynamicLoaderO27getConsentInformationSharedSo8NSObjectCSgyFZ",
+            "moduleName": "AdropAdsBackfill",
+            "static": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getConsentStatus",
+            "printedName": "getConsentStatus()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16AdropAdsBackfill16UMPDynamicLoaderO16getConsentStatusSiyFZ",
+            "mangledName": "$s16AdropAdsBackfill16UMPDynamicLoaderO16getConsentStatusSiyFZ",
+            "moduleName": "AdropAdsBackfill",
+            "static": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getFormStatus",
+            "printedName": "getFormStatus()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16AdropAdsBackfill16UMPDynamicLoaderO13getFormStatusSiyFZ",
+            "mangledName": "$s16AdropAdsBackfill16UMPDynamicLoaderO13getFormStatusSiyFZ",
+            "moduleName": "AdropAdsBackfill",
+            "static": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "canRequestAds",
+            "printedName": "canRequestAds()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16AdropAdsBackfill16UMPDynamicLoaderO010canRequestB0SbyFZ",
+            "mangledName": "$s16AdropAdsBackfill16UMPDynamicLoaderO010canRequestB0SbyFZ",
+            "moduleName": "AdropAdsBackfill",
+            "static": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "reset",
+            "printedName": "reset()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16AdropAdsBackfill16UMPDynamicLoaderO5resetyyFZ",
+            "mangledName": "$s16AdropAdsBackfill16UMPDynamicLoaderO5resetyyFZ",
+            "moduleName": "AdropAdsBackfill",
+            "static": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "requestConsentInfoUpdate",
+            "printedName": "requestConsentInfoUpdate(parameters:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ObjectiveC.NSObject?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSObject",
+                    "printedName": "ObjectiveC.NSObject",
+                    "usr": "c:objc(cs)NSObject"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "((any Swift.Error)?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any Swift.Error)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16AdropAdsBackfill16UMPDynamicLoaderO24requestConsentInfoUpdate10parameters10completionySo8NSObjectCSg_ys5Error_pSgctFZ",
+            "mangledName": "$s16AdropAdsBackfill16UMPDynamicLoaderO24requestConsentInfoUpdate10parameters10completionySo8NSObjectCSg_ys5Error_pSgctFZ",
+            "moduleName": "AdropAdsBackfill",
+            "static": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "loadAndPresentFormIfRequired",
+            "printedName": "loadAndPresentFormIfRequired(from:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "((any Swift.Error)?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any Swift.Error)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16AdropAdsBackfill16UMPDynamicLoaderO28loadAndPresentFormIfRequired4from10completionySo16UIViewControllerCSg_ys5Error_pSgctFZ",
+            "mangledName": "$s16AdropAdsBackfill16UMPDynamicLoaderO28loadAndPresentFormIfRequired4from10completionySo16UIViewControllerCSg_ys5Error_pSgctFZ",
+            "moduleName": "AdropAdsBackfill",
+            "static": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "createRequestParameters",
+            "printedName": "createRequestParameters()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ObjectiveC.NSObject?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSObject",
+                    "printedName": "ObjectiveC.NSObject",
+                    "usr": "c:objc(cs)NSObject"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16AdropAdsBackfill16UMPDynamicLoaderO23createRequestParametersSo8NSObjectCSgyFZ",
+            "mangledName": "$s16AdropAdsBackfill16UMPDynamicLoaderO23createRequestParametersSo8NSObjectCSgyFZ",
+            "moduleName": "AdropAdsBackfill",
+            "static": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setDebugSettings",
+            "printedName": "setDebugSettings(_:on:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ObjectiveC.NSObject?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSObject",
+                    "printedName": "ObjectiveC.NSObject",
+                    "usr": "c:objc(cs)NSObject"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ObjectiveC.NSObject?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSObject",
+                    "printedName": "ObjectiveC.NSObject",
+                    "usr": "c:objc(cs)NSObject"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16AdropAdsBackfill16UMPDynamicLoaderO16setDebugSettings_2onySo8NSObjectCSg_AHtFZ",
+            "mangledName": "$s16AdropAdsBackfill16UMPDynamicLoaderO16setDebugSettings_2onySo8NSObjectCSg_AHtFZ",
+            "moduleName": "AdropAdsBackfill",
+            "static": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "createDebugSettings",
+            "printedName": "createDebugSettings()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ObjectiveC.NSObject?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSObject",
+                    "printedName": "ObjectiveC.NSObject",
+                    "usr": "c:objc(cs)NSObject"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16AdropAdsBackfill16UMPDynamicLoaderO19createDebugSettingsSo8NSObjectCSgyFZ",
+            "mangledName": "$s16AdropAdsBackfill16UMPDynamicLoaderO19createDebugSettingsSo8NSObjectCSgyFZ",
+            "moduleName": "AdropAdsBackfill",
+            "static": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setTestDeviceIdentifiers",
+            "printedName": "setTestDeviceIdentifiers(_:on:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ObjectiveC.NSObject?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSObject",
+                    "printedName": "ObjectiveC.NSObject",
+                    "usr": "c:objc(cs)NSObject"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16AdropAdsBackfill16UMPDynamicLoaderO24setTestDeviceIdentifiers_2onySaySSG_So8NSObjectCSgtFZ",
+            "mangledName": "$s16AdropAdsBackfill16UMPDynamicLoaderO24setTestDeviceIdentifiers_2onySaySSG_So8NSObjectCSgtFZ",
+            "moduleName": "AdropAdsBackfill",
+            "static": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setGeography",
+            "printedName": "setGeography(_:on:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ObjectiveC.NSObject?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSObject",
+                    "printedName": "ObjectiveC.NSObject",
+                    "usr": "c:objc(cs)NSObject"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16AdropAdsBackfill16UMPDynamicLoaderO12setGeography_2onySi_So8NSObjectCSgtFZ",
+            "mangledName": "$s16AdropAdsBackfill16UMPDynamicLoaderO12setGeography_2onySi_So8NSObjectCSgtFZ",
+            "moduleName": "AdropAdsBackfill",
+            "static": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "ConsentStatusRawValue",
+            "printedName": "ConsentStatusRawValue",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "unknown",
+                "printedName": "unknown",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:16AdropAdsBackfill16UMPDynamicLoaderO21ConsentStatusRawValueO7unknownSivpZ",
+                "mangledName": "$s16AdropAdsBackfill16UMPDynamicLoaderO21ConsentStatusRawValueO7unknownSivpZ",
+                "moduleName": "AdropAdsBackfill",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:16AdropAdsBackfill16UMPDynamicLoaderO21ConsentStatusRawValueO7unknownSivgZ",
+                    "mangledName": "$s16AdropAdsBackfill16UMPDynamicLoaderO21ConsentStatusRawValueO7unknownSivgZ",
+                    "moduleName": "AdropAdsBackfill",
+                    "static": true,
+                    "implicit": true,
+                    "declAttributes": [
+                      "Transparent"
+                    ],
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "required",
+                "printedName": "required",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:16AdropAdsBackfill16UMPDynamicLoaderO21ConsentStatusRawValueO8requiredSivpZ",
+                "mangledName": "$s16AdropAdsBackfill16UMPDynamicLoaderO21ConsentStatusRawValueO8requiredSivpZ",
+                "moduleName": "AdropAdsBackfill",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:16AdropAdsBackfill16UMPDynamicLoaderO21ConsentStatusRawValueO8requiredSivgZ",
+                    "mangledName": "$s16AdropAdsBackfill16UMPDynamicLoaderO21ConsentStatusRawValueO8requiredSivgZ",
+                    "moduleName": "AdropAdsBackfill",
+                    "static": true,
+                    "implicit": true,
+                    "declAttributes": [
+                      "Transparent"
+                    ],
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "notRequired",
+                "printedName": "notRequired",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:16AdropAdsBackfill16UMPDynamicLoaderO21ConsentStatusRawValueO11notRequiredSivpZ",
+                "mangledName": "$s16AdropAdsBackfill16UMPDynamicLoaderO21ConsentStatusRawValueO11notRequiredSivpZ",
+                "moduleName": "AdropAdsBackfill",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:16AdropAdsBackfill16UMPDynamicLoaderO21ConsentStatusRawValueO11notRequiredSivgZ",
+                    "mangledName": "$s16AdropAdsBackfill16UMPDynamicLoaderO21ConsentStatusRawValueO11notRequiredSivgZ",
+                    "moduleName": "AdropAdsBackfill",
+                    "static": true,
+                    "implicit": true,
+                    "declAttributes": [
+                      "Transparent"
+                    ],
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "obtained",
+                "printedName": "obtained",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:16AdropAdsBackfill16UMPDynamicLoaderO21ConsentStatusRawValueO8obtainedSivpZ",
+                "mangledName": "$s16AdropAdsBackfill16UMPDynamicLoaderO21ConsentStatusRawValueO8obtainedSivpZ",
+                "moduleName": "AdropAdsBackfill",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:16AdropAdsBackfill16UMPDynamicLoaderO21ConsentStatusRawValueO8obtainedSivgZ",
+                    "mangledName": "$s16AdropAdsBackfill16UMPDynamicLoaderO21ConsentStatusRawValueO8obtainedSivgZ",
+                    "moduleName": "AdropAdsBackfill",
+                    "static": true,
+                    "implicit": true,
+                    "declAttributes": [
+                      "Transparent"
+                    ],
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:16AdropAdsBackfill16UMPDynamicLoaderO21ConsentStatusRawValueO",
+            "mangledName": "$s16AdropAdsBackfill16UMPDynamicLoaderO21ConsentStatusRawValueO",
+            "moduleName": "AdropAdsBackfill",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "isEnumExhaustive": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "BitwiseCopyable",
+                "printedName": "BitwiseCopyable",
+                "usr": "s:s15BitwiseCopyableP",
+                "mangledName": "$ss15BitwiseCopyableP"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "FormStatusRawValue",
+            "printedName": "FormStatusRawValue",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "unknown",
+                "printedName": "unknown",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:16AdropAdsBackfill16UMPDynamicLoaderO18FormStatusRawValueO7unknownSivpZ",
+                "mangledName": "$s16AdropAdsBackfill16UMPDynamicLoaderO18FormStatusRawValueO7unknownSivpZ",
+                "moduleName": "AdropAdsBackfill",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:16AdropAdsBackfill16UMPDynamicLoaderO18FormStatusRawValueO7unknownSivgZ",
+                    "mangledName": "$s16AdropAdsBackfill16UMPDynamicLoaderO18FormStatusRawValueO7unknownSivgZ",
+                    "moduleName": "AdropAdsBackfill",
+                    "static": true,
+                    "implicit": true,
+                    "declAttributes": [
+                      "Transparent"
+                    ],
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "available",
+                "printedName": "available",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:16AdropAdsBackfill16UMPDynamicLoaderO18FormStatusRawValueO9availableSivpZ",
+                "mangledName": "$s16AdropAdsBackfill16UMPDynamicLoaderO18FormStatusRawValueO9availableSivpZ",
+                "moduleName": "AdropAdsBackfill",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:16AdropAdsBackfill16UMPDynamicLoaderO18FormStatusRawValueO9availableSivgZ",
+                    "mangledName": "$s16AdropAdsBackfill16UMPDynamicLoaderO18FormStatusRawValueO9availableSivgZ",
+                    "moduleName": "AdropAdsBackfill",
+                    "static": true,
+                    "implicit": true,
+                    "declAttributes": [
+                      "Transparent"
+                    ],
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "unavailable",
+                "printedName": "unavailable",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:16AdropAdsBackfill16UMPDynamicLoaderO18FormStatusRawValueO11unavailableSivpZ",
+                "mangledName": "$s16AdropAdsBackfill16UMPDynamicLoaderO18FormStatusRawValueO11unavailableSivpZ",
+                "moduleName": "AdropAdsBackfill",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:16AdropAdsBackfill16UMPDynamicLoaderO18FormStatusRawValueO11unavailableSivgZ",
+                    "mangledName": "$s16AdropAdsBackfill16UMPDynamicLoaderO18FormStatusRawValueO11unavailableSivgZ",
+                    "moduleName": "AdropAdsBackfill",
+                    "static": true,
+                    "implicit": true,
+                    "declAttributes": [
+                      "Transparent"
+                    ],
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:16AdropAdsBackfill16UMPDynamicLoaderO18FormStatusRawValueO",
+            "mangledName": "$s16AdropAdsBackfill16UMPDynamicLoaderO18FormStatusRawValueO",
+            "moduleName": "AdropAdsBackfill",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "isEnumExhaustive": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "BitwiseCopyable",
+                "printedName": "BitwiseCopyable",
+                "usr": "s:s15BitwiseCopyableP",
+                "mangledName": "$ss15BitwiseCopyableP"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "DebugGeographyRawValue",
+            "printedName": "DebugGeographyRawValue",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "disabled",
+                "printedName": "disabled",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:16AdropAdsBackfill16UMPDynamicLoaderO22DebugGeographyRawValueO8disabledSivpZ",
+                "mangledName": "$s16AdropAdsBackfill16UMPDynamicLoaderO22DebugGeographyRawValueO8disabledSivpZ",
+                "moduleName": "AdropAdsBackfill",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:16AdropAdsBackfill16UMPDynamicLoaderO22DebugGeographyRawValueO8disabledSivgZ",
+                    "mangledName": "$s16AdropAdsBackfill16UMPDynamicLoaderO22DebugGeographyRawValueO8disabledSivgZ",
+                    "moduleName": "AdropAdsBackfill",
+                    "static": true,
+                    "implicit": true,
+                    "declAttributes": [
+                      "Transparent"
+                    ],
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "EEA",
+                "printedName": "EEA",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:16AdropAdsBackfill16UMPDynamicLoaderO22DebugGeographyRawValueO3EEASivpZ",
+                "mangledName": "$s16AdropAdsBackfill16UMPDynamicLoaderO22DebugGeographyRawValueO3EEASivpZ",
+                "moduleName": "AdropAdsBackfill",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:16AdropAdsBackfill16UMPDynamicLoaderO22DebugGeographyRawValueO3EEASivgZ",
+                    "mangledName": "$s16AdropAdsBackfill16UMPDynamicLoaderO22DebugGeographyRawValueO3EEASivgZ",
+                    "moduleName": "AdropAdsBackfill",
+                    "static": true,
+                    "implicit": true,
+                    "declAttributes": [
+                      "Transparent"
+                    ],
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "notEEA",
+                "printedName": "notEEA",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:16AdropAdsBackfill16UMPDynamicLoaderO22DebugGeographyRawValueO6notEEASivpZ",
+                "mangledName": "$s16AdropAdsBackfill16UMPDynamicLoaderO22DebugGeographyRawValueO6notEEASivpZ",
+                "moduleName": "AdropAdsBackfill",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:16AdropAdsBackfill16UMPDynamicLoaderO22DebugGeographyRawValueO6notEEASivgZ",
+                    "mangledName": "$s16AdropAdsBackfill16UMPDynamicLoaderO22DebugGeographyRawValueO6notEEASivgZ",
+                    "moduleName": "AdropAdsBackfill",
+                    "static": true,
+                    "implicit": true,
+                    "declAttributes": [
+                      "Transparent"
+                    ],
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "regulatedUSState",
+                "printedName": "regulatedUSState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:16AdropAdsBackfill16UMPDynamicLoaderO22DebugGeographyRawValueO16regulatedUSStateSivpZ",
+                "mangledName": "$s16AdropAdsBackfill16UMPDynamicLoaderO22DebugGeographyRawValueO16regulatedUSStateSivpZ",
+                "moduleName": "AdropAdsBackfill",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:16AdropAdsBackfill16UMPDynamicLoaderO22DebugGeographyRawValueO16regulatedUSStateSivgZ",
+                    "mangledName": "$s16AdropAdsBackfill16UMPDynamicLoaderO22DebugGeographyRawValueO16regulatedUSStateSivgZ",
+                    "moduleName": "AdropAdsBackfill",
+                    "static": true,
+                    "implicit": true,
+                    "declAttributes": [
+                      "Transparent"
+                    ],
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "other",
+                "printedName": "other",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:16AdropAdsBackfill16UMPDynamicLoaderO22DebugGeographyRawValueO5otherSivpZ",
+                "mangledName": "$s16AdropAdsBackfill16UMPDynamicLoaderO22DebugGeographyRawValueO5otherSivpZ",
+                "moduleName": "AdropAdsBackfill",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:16AdropAdsBackfill16UMPDynamicLoaderO22DebugGeographyRawValueO5otherSivgZ",
+                    "mangledName": "$s16AdropAdsBackfill16UMPDynamicLoaderO22DebugGeographyRawValueO5otherSivgZ",
+                    "moduleName": "AdropAdsBackfill",
+                    "static": true,
+                    "implicit": true,
+                    "declAttributes": [
+                      "Transparent"
+                    ],
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:16AdropAdsBackfill16UMPDynamicLoaderO22DebugGeographyRawValueO",
+            "mangledName": "$s16AdropAdsBackfill16UMPDynamicLoaderO22DebugGeographyRawValueO",
+            "moduleName": "AdropAdsBackfill",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "isEnumExhaustive": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "BitwiseCopyable",
+                "printedName": "BitwiseCopyable",
+                "usr": "s:s15BitwiseCopyableP",
+                "mangledName": "$ss15BitwiseCopyableP"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:16AdropAdsBackfill16UMPDynamicLoaderO",
+        "mangledName": "$s16AdropAdsBackfill16UMPDynamicLoaderO",
+        "moduleName": "AdropAdsBackfill",
+        "declAttributes": [
+          "RawDocComment"
+        ],
+        "isEnumExhaustive": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           }
         ]
       },
@@ -8677,7 +9924,7 @@
       "kind": "StringLiteral",
       "offset": 12843,
       "length": 15,
-      "value": "\"1.7.8-alpha.3\""
+      "value": "\"1.7.8-alpha.4\""
     },
     {
       "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/BackfillAdSource.swift",
@@ -8745,7 +9992,7 @@
     {
       "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/AdropUMPConsentManager.swift",
       "kind": "Array",
-      "offset": 457,
+      "offset": 504,
       "length": 2,
       "value": "[]"
     },
@@ -8755,6 +10002,265 @@
       "offset": 568,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/UMPDynamicLoader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1600,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/UMPDynamicLoader.swift",
+      "kind": "StringLiteral",
+      "offset": 1649,
+      "length": 15,
+      "value": "\"consentStatus\""
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/UMPDynamicLoader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1729,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/UMPDynamicLoader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2242,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/UMPDynamicLoader.swift",
+      "kind": "StringLiteral",
+      "offset": 2291,
+      "length": 12,
+      "value": "\"formStatus\""
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/UMPDynamicLoader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2368,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/UMPDynamicLoader.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2760,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/UMPDynamicLoader.swift",
+      "kind": "StringLiteral",
+      "offset": 2813,
+      "length": 15,
+      "value": "\"canRequestAds\""
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/UMPDynamicLoader.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2893,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/UMPDynamicLoader.swift",
+      "kind": "StringLiteral",
+      "offset": 3721,
+      "length": 18,
+      "value": "\"UMPDynamicLoader\""
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/UMPDynamicLoader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3747,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/UMPDynamicLoader.swift",
+      "kind": "StringLiteral",
+      "offset": 3789,
+      "length": 19,
+      "value": "\"UMP not available\""
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/UMPDynamicLoader.swift",
+      "kind": "StringLiteral",
+      "offset": 3886,
+      "length": 59,
+      "value": "\"requestConsentInfoUpdateWithParameters:completionHandler:\""
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/UMPDynamicLoader.swift",
+      "kind": "StringLiteral",
+      "offset": 4042,
+      "length": 18,
+      "value": "\"UMPDynamicLoader\""
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/UMPDynamicLoader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4068,
+      "length": 2,
+      "value": "-2"
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/UMPDynamicLoader.swift",
+      "kind": "StringLiteral",
+      "offset": 4110,
+      "length": 40,
+      "value": "\"requestConsentInfoUpdate not available\""
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/UMPDynamicLoader.swift",
+      "kind": "StringLiteral",
+      "offset": 4766,
+      "length": 16,
+      "value": "\"UMPConsentForm\""
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/UMPDynamicLoader.swift",
+      "kind": "StringLiteral",
+      "offset": 4830,
+      "length": 18,
+      "value": "\"UMPDynamicLoader\""
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/UMPDynamicLoader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4856,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/UMPDynamicLoader.swift",
+      "kind": "StringLiteral",
+      "offset": 4898,
+      "length": 30,
+      "value": "\"UMPConsentForm not available\""
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/UMPDynamicLoader.swift",
+      "kind": "StringLiteral",
+      "offset": 5006,
+      "length": 63,
+      "value": "\"loadAndPresentIfRequiredFromViewController:completionHandler:\""
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/UMPDynamicLoader.swift",
+      "kind": "StringLiteral",
+      "offset": 5171,
+      "length": 18,
+      "value": "\"UMPDynamicLoader\""
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/UMPDynamicLoader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5197,
+      "length": 2,
+      "value": "-2"
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/UMPDynamicLoader.swift",
+      "kind": "StringLiteral",
+      "offset": 5239,
+      "length": 40,
+      "value": "\"loadAndPresentIfRequired not available\""
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/UMPDynamicLoader.swift",
+      "kind": "StringLiteral",
+      "offset": 7565,
+      "length": 15,
+      "value": "\"setGeography:\""
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/UMPDynamicLoader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8066,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/UMPDynamicLoader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8098,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/UMPDynamicLoader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8133,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/UMPDynamicLoader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8165,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/UMPDynamicLoader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8266,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/UMPDynamicLoader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8299,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/UMPDynamicLoader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8334,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/UMPDynamicLoader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8444,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/UMPDynamicLoader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8471,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/UMPDynamicLoader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8501,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/UMPDynamicLoader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8541,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/UMPDynamicLoader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8570,
+      "length": 1,
+      "value": "4"
     },
     {
       "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/BackfillNetworkKind.swift",
