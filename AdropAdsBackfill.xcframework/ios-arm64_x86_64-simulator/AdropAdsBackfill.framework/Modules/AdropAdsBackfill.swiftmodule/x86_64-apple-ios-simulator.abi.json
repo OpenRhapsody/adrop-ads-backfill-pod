@@ -94,6 +94,52 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "sdkVersion",
+            "printedName": "sdkVersion",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16AdropAdsBackfill0aC0C10sdkVersionSSvpZ",
+            "mangledName": "$s16AdropAdsBackfill0aC0C10sdkVersionSSvpZ",
+            "moduleName": "AdropAdsBackfill",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16AdropAdsBackfill0aC0C10sdkVersionSSvgZ",
+                "mangledName": "$s16AdropAdsBackfill0aC0C10sdkVersionSSvgZ",
+                "moduleName": "AdropAdsBackfill",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "activate",
             "printedName": "activate()",
@@ -116,6 +162,115 @@
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Constants",
+            "printedName": "Constants",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "SDK_VERSION",
+                "printedName": "SDK_VERSION",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:16AdropAdsBackfill0aC0C9ConstantsV11SDK_VERSIONSSvpZ",
+                "mangledName": "$s16AdropAdsBackfill0aC0C9ConstantsV11SDK_VERSIONSSvpZ",
+                "moduleName": "AdropAdsBackfill",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:16AdropAdsBackfill0aC0C9ConstantsV11SDK_VERSIONSSvgZ",
+                    "mangledName": "$s16AdropAdsBackfill0aC0C9ConstantsV11SDK_VERSIONSSvgZ",
+                    "moduleName": "AdropAdsBackfill",
+                    "static": true,
+                    "implicit": true,
+                    "declAttributes": [
+                      "Transparent"
+                    ],
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Constants",
+                    "printedName": "AdropAdsBackfill.AdropBackfill.Constants",
+                    "usr": "s:16AdropAdsBackfill0aC0C9ConstantsV"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:16AdropAdsBackfill0aC0C9ConstantsVAEycfc",
+                "mangledName": "$s16AdropAdsBackfill0aC0C9ConstantsVAEycfc",
+                "moduleName": "AdropAdsBackfill",
+                "implicit": true,
+                "init_kind": "Designated"
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:16AdropAdsBackfill0aC0C9ConstantsV",
+            "mangledName": "$s16AdropAdsBackfill0aC0C9ConstantsV",
+            "moduleName": "AdropAdsBackfill",
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "BitwiseCopyable",
+                "printedName": "BitwiseCopyable",
+                "usr": "s:s15BitwiseCopyableP",
+                "mangledName": "$ss15BitwiseCopyableP"
+              }
+            ]
           }
         ],
         "declKind": "Class",
@@ -5078,20 +5233,6 @@
         ]
       },
       {
-        "kind": "Import",
-        "name": "PangleAdapter",
-        "printedName": "PangleAdapter",
-        "declKind": "Import",
-        "moduleName": "AdropAdsBackfill"
-      },
-      {
-        "kind": "Import",
-        "name": "UnityAds",
-        "printedName": "UnityAds",
-        "declKind": "Import",
-        "moduleName": "AdropAdsBackfill"
-      },
-      {
         "kind": "TypeDecl",
         "name": "AdropNetworkConsentUpdater",
         "printedName": "AdropNetworkConsentUpdater",
@@ -8531,6 +8672,13 @@
     "json_format_version": 8
   },
   "ConstValues": [
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/AdropBackfill.swift",
+      "kind": "StringLiteral",
+      "offset": 12843,
+      "length": 15,
+      "value": "\"1.7.8-alpha.1\""
+    },
     {
       "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/BackfillAdSource.swift",
       "kind": "IntegerLiteral",

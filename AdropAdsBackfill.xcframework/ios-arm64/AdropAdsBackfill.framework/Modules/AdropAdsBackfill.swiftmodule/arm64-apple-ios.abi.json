@@ -994,20 +994,6 @@
       },
       {
         "kind": "Import",
-        "name": "PangleAdapter",
-        "printedName": "PangleAdapter",
-        "declKind": "Import",
-        "moduleName": "AdropAdsBackfill"
-      },
-      {
-        "kind": "Import",
-        "name": "UnityAds",
-        "printedName": "UnityAds",
-        "declKind": "Import",
-        "moduleName": "AdropAdsBackfill"
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -1275,6 +1261,13 @@
     "json_format_version": 8
   },
   "ConstValues": [
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/AdropBackfill.swift",
+      "kind": "StringLiteral",
+      "offset": 12843,
+      "length": 15,
+      "value": "\"1.7.8-alpha.1\""
+    },
     {
       "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/BackfillAdSource.swift",
       "kind": "IntegerLiteral",
