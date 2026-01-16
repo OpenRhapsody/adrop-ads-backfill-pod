@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'adrop-ads-backfill'
-  s.version          = '1.7.8-alpha.7'
+  s.version          = '1.7.8-alpha.8'
   s.summary          = 'Adrop ads backfill'
   s.homepage         = 'https://adrop.io'
 
@@ -32,5 +32,10 @@ Pod::Spec.new do |s|
   s.user_target_xcconfig = { 
     'OTHER_LDFLAGS' => '$(inherited) -ObjC -Wl,-export_dynamic',
     'DEAD_CODE_STRIPPING' => 'NO'
+  }
+
+  s.pod_target_xcconfig = { 
+    'STRIP_STYLE' => 'non-global',
+    'STRIP_INSTALLED_PRODUCT' => 'NO'
   }
 end
