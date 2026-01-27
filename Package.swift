@@ -1,4 +1,4 @@
-// swift-tools-version:5.5
+// swift-tools-version:5.8
 import PackageDescription
 
 let package = Package(
@@ -13,16 +13,15 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(url: "https://github.com/OpenRhapsody/adrop-ads-pod.git", from: "1.7.3"),
+        .package(url: "https://github.com/OpenRhapsody/adrop-ads-pod.git", from: "1.7.5"),
         .package(url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git", from: "12.2.0"),
         .package(url: "https://github.com/googleads/swift-package-manager-google-user-messaging-platform.git", from: "3.1.0"),
 
         // AdMob Mediation Adapters
-        .package(url: "https://github.com/googleads/googleads-mobile-ios-mediation-pangle.git", branch: "main"),
-        .package(url: "https://github.com/googleads/googleads-mobile-ios-mediation-unity.git", branch: "main"),
-        .package(url: "https://github.com/googleads/googleads-mobile-ios-mediation-inmobi.git", branch: "main"),
-        .package(url: "https://github.com/googleads/googleads-mobile-ios-mediation-liftoffmonetize.git", branch: "main"),
-        .package(url: "https://github.com/googleads/googleads-mobile-ios-mediation-applovin.git", branch: "main")
+        .package(url: "https://github.com/googleads/googleads-mobile-ios-mediation-pangle.git", exact: "7.6.0-release.6.0"),
+        .package(url: "https://github.com/googleads/googleads-mobile-ios-mediation-unity.git", exact: "4.16.500"),
+        .package(url: "https://github.com/googleads/googleads-mobile-ios-mediation-liftoffmonetize.git", exact: "7.6.0-release.0"),
+        .package(url: "https://github.com/googleads/googleads-mobile-ios-mediation-applovin.git", exact: "13.4.0-release.0")
     ],
     targets: [
         .binaryTarget(
@@ -38,7 +37,6 @@ let package = Package(
                 .product(name: "GoogleUserMessagingPlatform", package: "swift-package-manager-google-user-messaging-platform"),
                 .product(name: "PangleAdapterTarget", package: "googleads-mobile-ios-mediation-pangle"),
                 .product(name: "UnityAdapterTarget", package: "googleads-mobile-ios-mediation-unity"),
-                .product(name: "InMobiAdapterTarget", package: "googleads-mobile-ios-mediation-inmobi"),
                 .product(name: "LiftoffMonetizeAdapterTarget", package: "googleads-mobile-ios-mediation-liftoffmonetize"),
                 .product(name: "AppLovinAdapterTarget", package: "googleads-mobile-ios-mediation-applovin")
             ]
