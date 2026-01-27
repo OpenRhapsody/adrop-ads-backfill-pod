@@ -26,13 +26,13 @@ let package = Package(
     ],
     targets: [
         .binaryTarget(
-            name: "AdropAdsBackfillBinary",
+            name: "AdropAdsBackfill",
             path: "AdropAdsBackfill.xcframework"
         ),
         .target(
             name: "AdropAdsBackfillWrapper",
             dependencies: [
-                "AdropAdsBackfillBinary",
+                "AdropAdsBackfill",
                 .product(name: "AdropAds", package: "adrop-ads-pod"),
                 .product(name: "GoogleMobileAds", package: "swift-package-manager-google-mobile-ads"),
                 .product(name: "GoogleUserMessagingPlatform", package: "swift-package-manager-google-user-messaging-platform"),
