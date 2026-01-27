@@ -9,7 +9,7 @@ let package = Package(
     products: [
         .library(
             name: "AdropAdsBackfill",
-            targets: ["AdropAdsBackfill"]
+            targets: ["AdropAdsBackfillWrapper"]
         )
     ],
     dependencies: [
@@ -26,8 +26,22 @@ let package = Package(
     ],
     targets: [
         .binaryTarget(
-            name: "AdropAdsBackfill",
+            name: "AdropAdsBackfillBinary",
             path: "AdropAdsBackfill.xcframework"
+        ),
+        .target(
+            name: "AdropAdsBackfillWrapper",
+            dependencies: [
+                "AdropAdsBackfillBinary",
+                .product(name: "AdropAds", package: "adrop-ads-pod"),
+                .product(name: "GoogleMobileAds", package: "swift-package-manager-google-mobile-ads"),
+                .product(name: "GoogleUserMessagingPlatform", package: "swift-package-manager-google-user-messaging-platform"),
+                .product(name: "PangleAdapterTarget", package: "googleads-mobile-ios-mediation-pangle"),
+                .product(name: "UnityAdapterTarget", package: "googleads-mobile-ios-mediation-unity"),
+                .product(name: "InMobiAdapterTarget", package: "googleads-mobile-ios-mediation-inmobi"),
+                .product(name: "LiftoffMonetizeAdapterTarget", package: "googleads-mobile-ios-mediation-liftoffmonetize"),
+                .product(name: "AppLovinAdapterTarget", package: "googleads-mobile-ios-mediation-applovin")
+            ]
         )
     ]
 )
