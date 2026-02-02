@@ -24,10 +24,10 @@ Pod::Spec.new do |s|
   s.dependency 'adrop-ads', '~> 1.8.0-alpha.0'
   s.dependency 'Google-Mobile-Ads-SDK', '~> 12.2'
   s.dependency 'GoogleUserMessagingPlatform', '~> 3.1'
-  s.dependency 'GoogleMobileAdsMediationPangle', '7.6.0-release.6.0'
-  s.dependency 'GoogleMobileAdsMediationUnity', '4.16.500'
+  s.dependency 'GoogleMobileAdsMediationPangle', '7.8.5.8.0'
+  s.dependency 'GoogleMobileAdsMediationUnity', '4.16.5.0'
   s.dependency 'GoogleMobileAdsMediationInMobi', '10.8.6.0'
-  s.dependency 'GoogleMobileAdsMediationVungle', '7.6.0-release.0'
+  s.dependency 'GoogleMobileAdsMediationVungle', '7.6.3.1'
   
   s.user_target_xcconfig = { 
     'OTHER_LDFLAGS' => '$(inherited) -ObjC -Wl,-export_dynamic',
