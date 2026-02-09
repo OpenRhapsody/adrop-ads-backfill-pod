@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '13.0'
   s.ios.vendored_frameworks = 'AdropAdsBackfill.xcframework'
 
-  s.dependency 'adrop-ads', '~> 1.8.3'
+  s.dependency 'adrop-ads', '~> 1.8.0-alpha.0'
   s.dependency 'Google-Mobile-Ads-SDK', '~> 12.2'
   s.dependency 'GoogleUserMessagingPlatform', '~> 3.1'
   s.dependency 'GoogleMobileAdsMediationPangle', '7.8.5.8.0'
