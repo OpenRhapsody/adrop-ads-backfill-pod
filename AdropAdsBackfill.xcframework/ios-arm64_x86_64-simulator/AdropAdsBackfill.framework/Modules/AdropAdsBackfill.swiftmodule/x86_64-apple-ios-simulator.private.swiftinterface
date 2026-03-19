@@ -11,10 +11,6 @@ import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc(AdropBackfill) public class AdropBackfill : ObjectiveC.NSObject {
-  @objc public static func activate()
-  @objc deinit
-}
 @objc public enum BackfillAdSource : Swift.Int {
   case direct = 0
   case backfill = 1
@@ -33,6 +29,10 @@ extension AdropAds.AdropNativeAdView {
 extension AdropAds.AdropNativeAdView : @retroactive GoogleMobileAds.NativeAdDelegate {
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func nativeAdDidRecordImpression(_ nativeAd: GoogleMobileAds.NativeAd)
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func nativeAdDidRecordClick(_ nativeAd: GoogleMobileAds.NativeAd)
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc(AdropBackfill) public class AdropBackfill : ObjectiveC.NSObject {
+  @objc public static func activate()
+  @objc deinit
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class AdropUMPConsentManager : ObjectiveC.NSObject, AdropAds.AdropConsentManager {
   @objc public static let shared: AdropAdsBackfill.AdropUMPConsentManager
