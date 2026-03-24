@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'adrop-ads-backfill'
-  s.version          = '1.9.0'
+  s.version          = '1.9.1'
   s.summary          = 'Adrop ads backfill'
   s.homepage         = 'https://adrop.io'
 
@@ -29,6 +29,7 @@ Pod::Spec.new do |s|
   s.dependency 'GoogleMobileAdsMediationInMobi', '10.8.6.0'
   s.dependency 'GoogleMobileAdsMediationVungle', '7.6.3.1'
   s.dependency 'GoogleMobileAdsMediationAppLovin', '13.4.0.0'
+  s.dependency 'GoogleMobileAdsMediationIronSource', '9.2.0.0.1'
   
   s.user_target_xcconfig = { 
     'OTHER_LDFLAGS' => '$(inherited) -ObjC -Wl,-export_dynamic',
