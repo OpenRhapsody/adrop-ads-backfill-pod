@@ -43,9 +43,6 @@ let package = Package(
                 .product(name: "AppLovinAdapterTarget", package: "googleads-mobile-ios-mediation-applovin"),
                 .product(name: "IronSourceAdapterTarget", package: "googleads-mobile-ios-mediation-ironsource"),
                 .product(name: "InMobiAdapterTarget", package: "googleads-mobile-ios-mediation-inmobi")
-            ],
-            linkerSettings: [
-                .unsafeFlags(["-ObjC"])
             ]
         )
     ]
