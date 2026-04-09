@@ -6,95 +6,23 @@
 	<dict>
 		<key>ios-arm64/AdropAdsBackfill.framework/AdropAdsBackfill</key>
 		<data>
-		wYcDd2TRYa2oQoRJvCaKTomZDIU=
-		</data>
-		<key>ios-arm64/AdropAdsBackfill.framework/Headers/AdropAdsBackfill-Swift.h</key>
-		<data>
-		2AfqZBdp4btrsLPID9hSA4PZckk=
+		5/sFx9ItoPgxkZOUcQ9r26zl0AE=
 		</data>
 		<key>ios-arm64/AdropAdsBackfill.framework/Info.plist</key>
 		<data>
 		67fFhT6drGByyRvG5Qkx1DbL2Dk=
 		</data>
-		<key>ios-arm64/AdropAdsBackfill.framework/Modules/AdropAdsBackfill.swiftmodule/arm64-apple-ios.abi.json</key>
-		<data>
-		SUTJFXryD9br0Bv5xKsA+ib2hHg=
-		</data>
-		<key>ios-arm64/AdropAdsBackfill.framework/Modules/AdropAdsBackfill.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
-		<data>
-		vo1+gnE6vJYB1+yGossBrE077j4=
-		</data>
-		<key>ios-arm64/AdropAdsBackfill.framework/Modules/AdropAdsBackfill.swiftmodule/arm64-apple-ios.swiftdoc</key>
-		<data>
-		pgX2G3C5RHSL+vltEv00SX5Gppk=
-		</data>
-		<key>ios-arm64/AdropAdsBackfill.framework/Modules/AdropAdsBackfill.swiftmodule/arm64-apple-ios.swiftinterface</key>
-		<data>
-		dPI13ZeWJinpSft3R2NZFaV7wFE=
-		</data>
-		<key>ios-arm64/AdropAdsBackfill.framework/Modules/module.modulemap</key>
-		<data>
-		vXQzfxhKZZxSjaaiBUlmtd6LQOw=
-		</data>
-		<key>ios-arm64/AdropAdsBackfill.framework/PrivacyInfo.xcprivacy</key>
-		<data>
-		ucg9pita0v8d353x3NuGfxweQYU=
-		</data>
 		<key>ios-arm64_x86_64-simulator/AdropAdsBackfill.framework/AdropAdsBackfill</key>
 		<data>
-		kJi8TfU20bNxmMcJTyDPzVGXcKY=
-		</data>
-		<key>ios-arm64_x86_64-simulator/AdropAdsBackfill.framework/Headers/AdropAdsBackfill-Swift.h</key>
-		<data>
-		wSyLH673EjrGK52tF7gV0Frd6vY=
+		aJODaFOuizoDFXopsaaEzSC22xg=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AdropAdsBackfill.framework/Info.plist</key>
 		<data>
 		edO+MUjhnwwKvwE+y7nKfX62chs=
 		</data>
-		<key>ios-arm64_x86_64-simulator/AdropAdsBackfill.framework/Modules/AdropAdsBackfill.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
-		<data>
-		fzGEhT2UoK82gn/7eBvL+BelcX8=
-		</data>
-		<key>ios-arm64_x86_64-simulator/AdropAdsBackfill.framework/Modules/AdropAdsBackfill.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
-		<data>
-		3CdyTzfekq98TRWU8liqHYvh89o=
-		</data>
-		<key>ios-arm64_x86_64-simulator/AdropAdsBackfill.framework/Modules/AdropAdsBackfill.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
-		<data>
-		xDgDrgmAsFnDZOcBtQaMqHta29I=
-		</data>
-		<key>ios-arm64_x86_64-simulator/AdropAdsBackfill.framework/Modules/AdropAdsBackfill.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
-		<data>
-		f6E3nEcxjk0s2SdAx5Tzzruhk6g=
-		</data>
-		<key>ios-arm64_x86_64-simulator/AdropAdsBackfill.framework/Modules/AdropAdsBackfill.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
-		<data>
-		fzGEhT2UoK82gn/7eBvL+BelcX8=
-		</data>
-		<key>ios-arm64_x86_64-simulator/AdropAdsBackfill.framework/Modules/AdropAdsBackfill.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
-		<data>
-		xu5iGEyr9WQB06XARa9xYxE941U=
-		</data>
-		<key>ios-arm64_x86_64-simulator/AdropAdsBackfill.framework/Modules/AdropAdsBackfill.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
-		<data>
-		HNeA/ahqXd1sPiBsGG2b1GgVmNc=
-		</data>
-		<key>ios-arm64_x86_64-simulator/AdropAdsBackfill.framework/Modules/AdropAdsBackfill.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
-		<data>
-		/WqJ+HPFTwzLFtEYe/A6hIs23v4=
-		</data>
-		<key>ios-arm64_x86_64-simulator/AdropAdsBackfill.framework/Modules/module.modulemap</key>
-		<data>
-		vXQzfxhKZZxSjaaiBUlmtd6LQOw=
-		</data>
-		<key>ios-arm64_x86_64-simulator/AdropAdsBackfill.framework/PrivacyInfo.xcprivacy</key>
-		<data>
-		ucg9pita0v8d353x3NuGfxweQYU=
-		</data>
 		<key>ios-arm64_x86_64-simulator/AdropAdsBackfill.framework/_CodeSignature/CodeResources</key>
 		<data>
-		TUpK2oyluTOkDdkwyZv0VSZFUTk=
+		soy0X2WTrsZh5nKOS7PkovaoOEo=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -103,14 +31,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			AmlokrsPn6zelQdrwu6O+A85GPZXVJN8u8PfhQz+n7w=
-			</data>
-		</dict>
-		<key>ios-arm64/AdropAdsBackfill.framework/Headers/AdropAdsBackfill-Swift.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			FvbvioidrR7SvJj4cWdSorYaB36trwq65XExiLTwuoA=
+			AB/Ly5vW4Of31HyHjL7fpCOUTRLdjGVDwWFOwiZaECo=
 			</data>
 		</dict>
 		<key>ios-arm64/AdropAdsBackfill.framework/Info.plist</key>
@@ -120,60 +41,11 @@
 			Tf+yUQaM1Yhy7I/f1XpMUTVhIqIIiNHZVoliuRDICuM=
 			</data>
 		</dict>
-		<key>ios-arm64/AdropAdsBackfill.framework/Modules/AdropAdsBackfill.swiftmodule/arm64-apple-ios.abi.json</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			nMmtk9tfHoioycryCSaEUxUhPnd8kg9Q0njGA3ZR+K4=
-			</data>
-		</dict>
-		<key>ios-arm64/AdropAdsBackfill.framework/Modules/AdropAdsBackfill.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			i7ci+U7zTNsALkdCt/6nS89iYGV5/dEbKkRorhEc3s4=
-			</data>
-		</dict>
-		<key>ios-arm64/AdropAdsBackfill.framework/Modules/AdropAdsBackfill.swiftmodule/arm64-apple-ios.swiftdoc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			be0kgCQVlx3h4+Z/Y8YI5kRLUwrUGl7ELIPtFBuFcI8=
-			</data>
-		</dict>
-		<key>ios-arm64/AdropAdsBackfill.framework/Modules/AdropAdsBackfill.swiftmodule/arm64-apple-ios.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			JY1IB72koReJMkX/9Nwer+NE+WjMLQy6HJepR9+/5zE=
-			</data>
-		</dict>
-		<key>ios-arm64/AdropAdsBackfill.framework/Modules/module.modulemap</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			pbSqIT7yS2hMLVsTFdgDlaSorNZM2Elo4ZOudUT6bho=
-			</data>
-		</dict>
-		<key>ios-arm64/AdropAdsBackfill.framework/PrivacyInfo.xcprivacy</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Uh6274Qwdz5cAQ4YOP6d2PpdYre3bRzqjX2NqtyxROI=
-			</data>
-		</dict>
 		<key>ios-arm64_x86_64-simulator/AdropAdsBackfill.framework/AdropAdsBackfill</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1/qgK1T0kmp7xaKiXSnoMMyo66NOmvq5Wstp7npjzOQ=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/AdropAdsBackfill.framework/Headers/AdropAdsBackfill-Swift.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			KgYFI9clBUHL8oF1Lxr2Ii3nXYVawZfYJee2hM2T1QY=
+			B5P3STSv+sM7gsx1eoNOecdIJqfU8jxCXniWDFa1qZo=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AdropAdsBackfill.framework/Info.plist</key>
@@ -183,81 +55,11 @@
 			3qvbevi9dKrSAZXFTSGwswEZA3mwpkrpi9qqkLV21u0=
 			</data>
 		</dict>
-		<key>ios-arm64_x86_64-simulator/AdropAdsBackfill.framework/Modules/AdropAdsBackfill.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			BCrWt+HUWFYfQyQ5Hg4FIqACwpf/p+kPkIe4sdTYaTM=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/AdropAdsBackfill.framework/Modules/AdropAdsBackfill.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			A6OEBiP+jlbeJ0LHGxSS7v1KE7QrzSJXhI4jeHk/tF4=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/AdropAdsBackfill.framework/Modules/AdropAdsBackfill.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			+s7uFi/pf8gK9+JDAW2eOKK8sPwf58GM3yUAJRWVN/w=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/AdropAdsBackfill.framework/Modules/AdropAdsBackfill.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			wzH8sxjTNUARy/omNGubje1SGA/+B8tP+lsEr4ISY04=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/AdropAdsBackfill.framework/Modules/AdropAdsBackfill.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			BCrWt+HUWFYfQyQ5Hg4FIqACwpf/p+kPkIe4sdTYaTM=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/AdropAdsBackfill.framework/Modules/AdropAdsBackfill.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			aUE/c1P2KZkehxHqTS/uUtNQlVHE4XHxsLd2t04Wp5g=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/AdropAdsBackfill.framework/Modules/AdropAdsBackfill.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			rvRIYGPB0HJqhiTms9BN7i1eyTY+nJNFd2w3LKsWvfE=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/AdropAdsBackfill.framework/Modules/AdropAdsBackfill.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			QFknnV9jLcJP2zeyYvrN/lxEJzaHf/admUg22YIM9kI=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/AdropAdsBackfill.framework/Modules/module.modulemap</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			pbSqIT7yS2hMLVsTFdgDlaSorNZM2Elo4ZOudUT6bho=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/AdropAdsBackfill.framework/PrivacyInfo.xcprivacy</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Uh6274Qwdz5cAQ4YOP6d2PpdYre3bRzqjX2NqtyxROI=
-			</data>
-		</dict>
 		<key>ios-arm64_x86_64-simulator/AdropAdsBackfill.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aBvuCLImqOa9nKfPO+ruJI9zysra+Z88Kjcwz5zb2fk=
+			ARaPgaAZwAX/z9/XLFm8CQI+hRR0yqL49qSsqLfBCKo=
 			</data>
 		</dict>
 	</dict>
