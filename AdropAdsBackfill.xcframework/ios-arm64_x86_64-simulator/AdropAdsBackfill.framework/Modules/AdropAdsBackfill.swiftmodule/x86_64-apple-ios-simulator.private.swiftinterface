@@ -18,6 +18,10 @@ extension AdropAds.AdropNativeAdView : @retroactive GoogleMobileAds.NativeAdDele
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func nativeAdDidRecordImpression(_ nativeAd: GoogleMobileAds.NativeAd)
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func nativeAdDidRecordClick(_ nativeAd: GoogleMobileAds.NativeAd)
 }
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc(AdropBackfill) public class AdropBackfill : ObjectiveC.NSObject {
+  @objc public static func activate()
+  @objc deinit
+}
 @objc public enum BackfillAdSource : Swift.Int {
   case direct = 0
   case backfill = 1
@@ -37,10 +41,6 @@ extension AdropAds.AdropNativeAdView : @retroactive GoogleMobileAds.NativeAdDele
   @objc public func getConsentStatus() -> AdropAds.AdropConsentStatus
   @objc public func canRequestAds() -> Swift.Bool
   @objc public func reset()
-  @objc deinit
-}
-@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc(AdropBackfill) public class AdropBackfill : ObjectiveC.NSObject {
-  @objc public static func activate()
   @objc deinit
 }
 extension AdropAdsBackfill.BackfillAdSource : Swift.Equatable {}
