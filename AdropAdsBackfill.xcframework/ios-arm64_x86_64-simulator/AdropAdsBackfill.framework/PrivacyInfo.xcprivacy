@@ -9,6 +9,24 @@
 	<key>NSPrivacyCollectedDataTypes</key>
 	<array/>
 	<key>NSPrivacyAccessedAPITypes</key>
-	<array/>
+	<array>
+		<!--
+		  AdropAdsBackfill 이 직접 호출하는 Required Reason API 만 선언한다.
+		  (GoogleMobileAds / UMP / 미디에이션 어댑터는 각자 자기 매니페스트를 갖는다.)
+
+		  UserDefaults:
+		    - BackfillConfig.swift — 백필 on/off·refresh 설정을 전용 suite 에 저장/복원
+		    - AdropUMPConsentManager.swift — UMP 가 기록한 IABTCF_PurposeConsents 읽기
+		  둘 다 앱 자신의 데이터를 앱 안에서만 쓰므로 사유는 CA92.1.
+		-->
+		<dict>
+			<key>NSPrivacyAccessedAPIType</key>
+			<string>NSPrivacyAccessedAPICategoryUserDefaults</string>
+			<key>NSPrivacyAccessedAPITypeReasons</key>
+			<array>
+				<string>CA92.1</string>
+			</array>
+		</dict>
+	</array>
 </dict>
 </plist>
