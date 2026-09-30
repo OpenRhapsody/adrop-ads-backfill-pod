@@ -12,13 +12,6 @@ import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-extension AdropAds.AdropNativeAdView {
-  @_Concurrency.MainActor @preconcurrency public static func enableBackfillSupport()
-}
-extension AdropAds.AdropNativeAdView : @retroactive GoogleMobileAds.NativeAdDelegate {
-  @_Concurrency.MainActor @preconcurrency @objc dynamic public func nativeAdDidRecordImpression(_ nativeAd: GoogleMobileAds.NativeAd)
-  @_Concurrency.MainActor @preconcurrency @objc dynamic public func nativeAdDidRecordClick(_ nativeAd: GoogleMobileAds.NativeAd)
-}
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class AdropUMPConsentManager : ObjectiveC.NSObject, AdropAds.AdropConsentManager {
   @objc public static let shared: AdropAdsBackfill.AdropUMPConsentManager
   @objc public func setDebugSettings(testDeviceIdentifiers: [Swift.String], geography: AdropAds.AdropConsentDebugGeography)
@@ -27,6 +20,13 @@ extension AdropAds.AdropNativeAdView : @retroactive GoogleMobileAds.NativeAdDele
   @objc public func canRequestAds() -> Swift.Bool
   @objc public func reset()
   @objc deinit
+}
+extension AdropAds.AdropNativeAdView {
+  @_Concurrency.MainActor @preconcurrency public static func enableBackfillSupport()
+}
+extension AdropAds.AdropNativeAdView : @retroactive GoogleMobileAds.NativeAdDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func nativeAdDidRecordImpression(_ nativeAd: GoogleMobileAds.NativeAd)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func nativeAdDidRecordClick(_ nativeAd: GoogleMobileAds.NativeAd)
 }
 @objc public enum BackfillAdSource : Swift.Int {
   case direct = 0

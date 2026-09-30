@@ -12,22 +12,6 @@ import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-extension AdropAds.AdropNativeAdView {
-  @_Concurrency.MainActor @preconcurrency public static func enableBackfillSupport()
-}
-extension AdropAds.AdropNativeAdView : @retroactive GoogleMobileAds.NativeAdDelegate {
-  @_Concurrency.MainActor @preconcurrency @objc dynamic public func nativeAdDidRecordImpression(_ nativeAd: GoogleMobileAds.NativeAd)
-  @_Concurrency.MainActor @preconcurrency @objc dynamic public func nativeAdDidRecordClick(_ nativeAd: GoogleMobileAds.NativeAd)
-}
-@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class AdropUMPConsentManager : ObjectiveC.NSObject, AdropAds.AdropConsentManager {
-  @objc public static let shared: AdropAdsBackfill.AdropUMPConsentManager
-  @objc public func setDebugSettings(testDeviceIdentifiers: [Swift.String], geography: AdropAds.AdropConsentDebugGeography)
-  @objc public func requestConsentInfoUpdate(from viewController: UIKit.UIViewController?, completion: @escaping (AdropAds.AdropConsentResult) -> Swift.Void)
-  @objc public func getConsentStatus() -> AdropAds.AdropConsentStatus
-  @objc public func canRequestAds() -> Swift.Bool
-  @objc public func reset()
-  @objc deinit
-}
 @objc public enum BackfillAdSource : Swift.Int {
   case direct = 0
   case backfill = 1
@@ -43,6 +27,22 @@ extension AdropAds.AdropNativeAdView : @retroactive GoogleMobileAds.NativeAdDele
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc(AdropBackfill) public class AdropBackfill : ObjectiveC.NSObject {
   @objc public static func activate()
   @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class AdropUMPConsentManager : ObjectiveC.NSObject, AdropAds.AdropConsentManager {
+  @objc public static let shared: AdropAdsBackfill.AdropUMPConsentManager
+  @objc public func setDebugSettings(testDeviceIdentifiers: [Swift.String], geography: AdropAds.AdropConsentDebugGeography)
+  @objc public func requestConsentInfoUpdate(from viewController: UIKit.UIViewController?, completion: @escaping (AdropAds.AdropConsentResult) -> Swift.Void)
+  @objc public func getConsentStatus() -> AdropAds.AdropConsentStatus
+  @objc public func canRequestAds() -> Swift.Bool
+  @objc public func reset()
+  @objc deinit
+}
+extension AdropAds.AdropNativeAdView {
+  @_Concurrency.MainActor @preconcurrency public static func enableBackfillSupport()
+}
+extension AdropAds.AdropNativeAdView : @retroactive GoogleMobileAds.NativeAdDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func nativeAdDidRecordImpression(_ nativeAd: GoogleMobileAds.NativeAd)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func nativeAdDidRecordClick(_ nativeAd: GoogleMobileAds.NativeAd)
 }
 extension AdropAdsBackfill.BackfillAdSource : Swift.Equatable {}
 extension AdropAdsBackfill.BackfillAdSource : Swift.Hashable {}

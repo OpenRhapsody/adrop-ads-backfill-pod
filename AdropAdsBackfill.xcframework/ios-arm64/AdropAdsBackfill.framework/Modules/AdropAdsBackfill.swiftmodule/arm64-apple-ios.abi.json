@@ -23,6 +23,101 @@
       },
       {
         "kind": "Import",
+        "name": "AdropAds",
+        "printedName": "AdropAds",
+        "declKind": "Import",
+        "moduleName": "AdropAdsBackfill"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdropAdsBackfill",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AdropAds",
+        "printedName": "AdropAds",
+        "declKind": "Import",
+        "moduleName": "AdropAdsBackfill",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "AdropAdsBackfill"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdropAdsBackfill",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdropAdsBackfill",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "AdropAdsBackfill"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdropAdsBackfill",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdropAdsBackfill"
+      },
+      {
+        "kind": "Import",
+        "name": "AdropAds",
+        "printedName": "AdropAds",
+        "declKind": "Import",
+        "moduleName": "AdropAdsBackfill",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "AdropAdsBackfill"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -67,26 +162,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AdropAdsBackfill",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "AdropAds",
-        "printedName": "AdropAds",
-        "declKind": "Import",
-        "moduleName": "AdropAdsBackfill",
-        "declAttributes": [
-          "SPIAccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "GoogleMobileAds",
         "printedName": "GoogleMobileAds",
         "declKind": "Import",
@@ -159,53 +234,6 @@
         "declAttributes": [
           "SPIAccessControl"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "AdropAdsBackfill",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "AdropAdsBackfill",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AdropAdsBackfill",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AdropAdsBackfill",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "GoogleMobileAds",
-        "printedName": "GoogleMobileAds",
-        "declKind": "Import",
-        "moduleName": "AdropAdsBackfill"
       },
       {
         "kind": "Import",
@@ -556,6 +584,202 @@
       },
       {
         "kind": "Import",
+        "name": "AdropAds",
+        "printedName": "AdropAds",
+        "declKind": "Import",
+        "moduleName": "AdropAdsBackfill",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "AdropAdsBackfill"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdropAdsBackfill",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdropAdsBackfill"
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "AdropAdsBackfill"
+      },
+      {
+        "kind": "Import",
+        "name": "AdropAds",
+        "printedName": "AdropAds",
+        "declKind": "Import",
+        "moduleName": "AdropAdsBackfill",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdropAdsBackfill",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdropAdsBackfill",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AdropAds",
+        "printedName": "AdropAds",
+        "declKind": "Import",
+        "moduleName": "AdropAdsBackfill",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "AdropAdsBackfill"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdropAdsBackfill",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdropAdsBackfill"
+      },
+      {
+        "kind": "Import",
+        "name": "AdropAds",
+        "printedName": "AdropAds",
+        "declKind": "Import",
+        "moduleName": "AdropAdsBackfill",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "AdropAdsBackfill"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdropAdsBackfill",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdropAdsBackfill",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "AdropAdsBackfill"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdropAdsBackfill",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdropAdsBackfill",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdropAdsBackfill",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "AdropAdsBackfill"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdropAdsBackfill",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -874,66 +1098,8 @@
       },
       {
         "kind": "Import",
-        "name": "GoogleMobileAds",
-        "printedName": "GoogleMobileAds",
-        "declKind": "Import",
-        "moduleName": "AdropAdsBackfill"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AdropAdsBackfill",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "GoogleMobileAds",
-        "printedName": "GoogleMobileAds",
-        "declKind": "Import",
-        "moduleName": "AdropAdsBackfill"
-      },
-      {
-        "kind": "Import",
-        "name": "AdropAds",
-        "printedName": "AdropAds",
-        "declKind": "Import",
-        "moduleName": "AdropAdsBackfill"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AdropAdsBackfill",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "AdropAdsBackfill"
-      },
-      {
-        "kind": "Import",
-        "name": "AdropAds",
-        "printedName": "AdropAds",
-        "declKind": "Import",
-        "moduleName": "AdropAdsBackfill",
-        "declAttributes": [
-          "SPIAccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "GoogleMobileAds",
-        "printedName": "GoogleMobileAds",
         "declKind": "Import",
         "moduleName": "AdropAdsBackfill"
       },
@@ -963,60 +1129,6 @@
         "printedName": "ObjectiveC",
         "declKind": "Import",
         "moduleName": "AdropAdsBackfill"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AdropAdsBackfill",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "GoogleMobileAds",
-        "printedName": "GoogleMobileAds",
-        "declKind": "Import",
-        "moduleName": "AdropAdsBackfill"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AdropAdsBackfill",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "AdropAds",
-        "printedName": "AdropAds",
-        "declKind": "Import",
-        "moduleName": "AdropAdsBackfill",
-        "declAttributes": [
-          "SPIAccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "GoogleMobileAds",
-        "printedName": "GoogleMobileAds",
-        "declKind": "Import",
-        "moduleName": "AdropAdsBackfill"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AdropAdsBackfill",
-        "declAttributes": [
-          "RawDocComment"
-        ]
       },
       {
         "kind": "Import",
@@ -1176,16 +1288,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AdropAdsBackfill",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -1207,108 +1309,6 @@
         "printedName": "GoogleMobileAds",
         "declKind": "Import",
         "moduleName": "AdropAdsBackfill"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AdropAdsBackfill",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "AdropAdsBackfill"
-      },
-      {
-        "kind": "Import",
-        "name": "AdropAds",
-        "printedName": "AdropAds",
-        "declKind": "Import",
-        "moduleName": "AdropAdsBackfill",
-        "declAttributes": [
-          "SPIAccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "GoogleMobileAds",
-        "printedName": "GoogleMobileAds",
-        "declKind": "Import",
-        "moduleName": "AdropAdsBackfill"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AdropAdsBackfill",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "AdropAdsBackfill"
-      },
-      {
-        "kind": "Import",
-        "name": "AdropAds",
-        "printedName": "AdropAds",
-        "declKind": "Import",
-        "moduleName": "AdropAdsBackfill",
-        "declAttributes": [
-          "SPIAccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "GoogleMobileAds",
-        "printedName": "GoogleMobileAds",
-        "declKind": "Import",
-        "moduleName": "AdropAdsBackfill"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "AdropAdsBackfill",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "AdropAdsBackfill"
-      },
-      {
-        "kind": "Import",
-        "name": "GoogleMobileAds",
-        "printedName": "GoogleMobileAds",
-        "declKind": "Import",
-        "moduleName": "AdropAdsBackfill"
-      },
-      {
-        "kind": "Import",
-        "name": "AdropAds",
-        "printedName": "AdropAds",
-        "declKind": "Import",
-        "moduleName": "AdropAdsBackfill",
-        "declAttributes": [
-          "SPIAccessControl"
-        ]
       },
       {
         "kind": "TypeDecl",
@@ -1509,95 +1509,11 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/AdMobMappedNativeAd.swift",
-      "kind": "BooleanLiteral",
-      "offset": 568,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/RefreshNativeAdapter.swift",
-      "kind": "Dictionary",
-      "offset": 1211,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/BackfillConfig.swift",
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/AdMobPaidEventRelay.swift",
       "kind": "StringLiteral",
-      "offset": 330,
-      "length": 25,
-      "value": "\"io.adrop.BackfillConfig\""
-    },
-    {
-      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/BackfillConfig.swift",
-      "kind": "StringLiteral",
-      "offset": 477,
-      "length": 17,
-      "value": "\"refresh_enabled\""
-    },
-    {
-      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/BackfillConfig.swift",
-      "kind": "StringLiteral",
-      "offset": 539,
-      "length": 18,
-      "value": "\"refresh_interval\""
-    },
-    {
-      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/BackfillConfig.swift",
-      "kind": "StringLiteral",
-      "offset": 602,
-      "length": 18,
-      "value": "\"refresh_maxCount\""
-    },
-    {
-      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/BackfillConfig.swift",
-      "kind": "BooleanLiteral",
-      "offset": 700,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/BackfillConfig.swift",
-      "kind": "IntegerLiteral",
-      "offset": 754,
-      "length": 5,
-      "value": "30000"
-    },
-    {
-      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/BackfillConfig.swift",
-      "kind": "IntegerLiteral",
-      "offset": 818,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/BackfillConfig.swift",
-      "kind": "IntegerLiteral",
-      "offset": 893,
-      "length": 4,
-      "value": "7000"
-    },
-    {
-      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/BackfillConfig.swift",
-      "kind": "IntegerLiteral",
-      "offset": 955,
-      "length": 6,
-      "value": "300000"
-    },
-    {
-      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/BackfillConfig.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1017,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/BackfillConfig.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1063,
-      "length": 2,
-      "value": "10"
+      "offset": 456,
+      "length": 7,
+      "value": "\"admob\""
     },
     {
       "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/BackfillManager.swift",
@@ -1628,9 +1544,23 @@
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/AdropNativeAdView+Backfill.swift",
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/AdMobMappedNativeAd.swift",
+      "kind": "BooleanLiteral",
+      "offset": 568,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/RefreshNativeAdapter.swift",
+      "kind": "Dictionary",
+      "offset": 1211,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/BackfillBannerAdapter.swift",
       "kind": "IntegerLiteral",
-      "offset": 767,
+      "offset": 264,
       "length": 1,
       "value": "0"
     },
@@ -1640,6 +1570,132 @@
       "offset": 634,
       "length": 3,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/AdropUMPConsentManager.swift",
+      "kind": "Array",
+      "offset": 504,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/AdropNativeAdView+Backfill.swift",
+      "kind": "IntegerLiteral",
+      "offset": 767,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/BannerRefreshState.swift",
+      "kind": "IntegerLiteral",
+      "offset": 360,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/BannerRefreshState.swift",
+      "kind": "IntegerLiteral",
+      "offset": 451,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/BannerRefreshState.swift",
+      "kind": "BooleanLiteral",
+      "offset": 559,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/BannerRefreshState.swift",
+      "kind": "BooleanLiteral",
+      "offset": 959,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/BannerRefreshState.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1059,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/BannerRefreshState.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1131,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/BannerRefreshState.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1702,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/BannerRefreshState.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3522,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/BannerRefreshState.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3545,
+      "length": 5,
+      "value": "30000"
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/BannerRefreshState.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3568,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/BackfillNetworkKind.swift",
+      "kind": "StringLiteral",
+      "offset": 300,
+      "length": 7,
+      "value": "\"admob\""
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/BackfillNetworkKind.swift",
+      "kind": "StringLiteral",
+      "offset": 327,
+      "length": 9,
+      "value": "\"adsense\""
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/BackfillNetworkKind.swift",
+      "kind": "StringLiteral",
+      "offset": 355,
+      "length": 8,
+      "value": "\"criteo\""
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/BackfillNetworkKind.swift",
+      "kind": "StringLiteral",
+      "offset": 386,
+      "length": 12,
+      "value": "\"anymanager\""
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/BackfillNativeAdapter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 313,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/BackfillNativeAdapter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 351,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/UMPDynamicLoader.swift",
@@ -1901,11 +1957,88 @@
       "value": "4"
     },
     {
-      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/AdropUMPConsentManager.swift",
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/TCFPurposeConsent.swift",
       "kind": "Array",
-      "offset": 504,
+      "offset": 1157,
+      "length": 9,
+      "value": "[1, 3, 4]"
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/BackfillConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 330,
+      "length": 25,
+      "value": "\"io.adrop.BackfillConfig\""
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/BackfillConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 477,
+      "length": 17,
+      "value": "\"refresh_enabled\""
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/BackfillConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 539,
+      "length": 18,
+      "value": "\"refresh_interval\""
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/BackfillConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 602,
+      "length": 18,
+      "value": "\"refresh_maxCount\""
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/BackfillConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 700,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/BackfillConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 754,
+      "length": 5,
+      "value": "30000"
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/BackfillConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 818,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/BackfillConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 893,
+      "length": 4,
+      "value": "7000"
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/BackfillConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 955,
+      "length": 6,
+      "value": "300000"
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/BackfillConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1017,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/BackfillConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1063,
       "length": 2,
-      "value": "[]"
+      "value": "10"
     },
     {
       "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/RefreshController.swift",
@@ -1952,28 +2085,28 @@
     {
       "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/RefreshController.swift",
       "kind": "Array",
-      "offset": 1029,
+      "offset": 1263,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/RefreshController.swift",
       "kind": "Array",
-      "offset": 1146,
+      "offset": 1380,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/RefreshController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1453,
+      "offset": 1687,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/RefreshController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1524,
+      "offset": 1758,
       "length": 5,
       "value": "false"
     },
@@ -1992,144 +2125,11 @@
       "value": "1"
     },
     {
-      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/AdMobPaidEventRelay.swift",
-      "kind": "StringLiteral",
-      "offset": 456,
-      "length": 7,
-      "value": "\"admob\""
-    },
-    {
-      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/BackfillNetworkKind.swift",
-      "kind": "StringLiteral",
-      "offset": 300,
-      "length": 7,
-      "value": "\"admob\""
-    },
-    {
-      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/BackfillNetworkKind.swift",
-      "kind": "StringLiteral",
-      "offset": 327,
-      "length": 9,
-      "value": "\"adsense\""
-    },
-    {
-      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/BackfillNetworkKind.swift",
-      "kind": "StringLiteral",
-      "offset": 355,
-      "length": 8,
-      "value": "\"criteo\""
-    },
-    {
-      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/BackfillNetworkKind.swift",
-      "kind": "StringLiteral",
-      "offset": 386,
-      "length": 12,
-      "value": "\"anymanager\""
-    },
-    {
       "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/AdropBackfill.swift",
       "kind": "StringLiteral",
       "offset": 16139,
       "length": 8,
-      "value": "\"1.13.0\""
-    },
-    {
-      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/TCFPurposeConsent.swift",
-      "kind": "Array",
-      "offset": 1157,
-      "length": 9,
-      "value": "[1, 3, 4]"
-    },
-    {
-      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/BackfillNativeAdapter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 313,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/BackfillNativeAdapter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 351,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/BackfillBannerAdapter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 264,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/BannerRefreshState.swift",
-      "kind": "IntegerLiteral",
-      "offset": 360,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/BannerRefreshState.swift",
-      "kind": "IntegerLiteral",
-      "offset": 451,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/BannerRefreshState.swift",
-      "kind": "BooleanLiteral",
-      "offset": 559,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/BannerRefreshState.swift",
-      "kind": "BooleanLiteral",
-      "offset": 959,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/BannerRefreshState.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1059,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/BannerRefreshState.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1131,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/BannerRefreshState.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1702,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/BannerRefreshState.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3522,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/BannerRefreshState.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3545,
-      "length": 5,
-      "value": "30000"
-    },
-    {
-      "filePath": "\/Users\/leo\/Documents\/adrop\/AdropAds\/AdropAds\/AdropAdsBackfill\/BannerRefreshState.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3568,
-      "length": 1,
-      "value": "3"
+      "value": "\"1.14.0\""
     }
   ]
 }
