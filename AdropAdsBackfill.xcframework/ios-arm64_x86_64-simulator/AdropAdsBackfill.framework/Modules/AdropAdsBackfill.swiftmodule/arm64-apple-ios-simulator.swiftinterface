@@ -12,6 +12,13 @@ import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+extension AdropAds.AdropNativeAdView {
+  @_Concurrency.MainActor @preconcurrency public static func enableBackfillSupport()
+}
+extension AdropAds.AdropNativeAdView : @retroactive GoogleMobileAds.NativeAdDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func nativeAdDidRecordImpression(_ nativeAd: GoogleMobileAds.NativeAd)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func nativeAdDidRecordClick(_ nativeAd: GoogleMobileAds.NativeAd)
+}
 @objc public enum BackfillAdSource : Swift.Int {
   case direct = 0
   case backfill = 1
@@ -36,13 +43,6 @@ import _SwiftConcurrencyShims
   @objc public func canRequestAds() -> Swift.Bool
   @objc public func reset()
   @objc deinit
-}
-extension AdropAds.AdropNativeAdView {
-  @_Concurrency.MainActor @preconcurrency public static func enableBackfillSupport()
-}
-extension AdropAds.AdropNativeAdView : @retroactive GoogleMobileAds.NativeAdDelegate {
-  @_Concurrency.MainActor @preconcurrency @objc dynamic public func nativeAdDidRecordImpression(_ nativeAd: GoogleMobileAds.NativeAd)
-  @_Concurrency.MainActor @preconcurrency @objc dynamic public func nativeAdDidRecordClick(_ nativeAd: GoogleMobileAds.NativeAd)
 }
 extension AdropAdsBackfill.BackfillAdSource : Swift.Equatable {}
 extension AdropAdsBackfill.BackfillAdSource : Swift.Hashable {}
