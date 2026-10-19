@@ -31,10 +31,6 @@ extension AdropAds.AdropNativeAdView : @retroactive GoogleMobileAds.NativeAdDele
     get
   }
 }
-@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc(AdropBackfill) public class AdropBackfill : ObjectiveC.NSObject {
-  @objc public static func activate()
-  @objc deinit
-}
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class AdropUMPConsentManager : ObjectiveC.NSObject, AdropAds.AdropConsentManager {
   @objc public static let shared: AdropAdsBackfill.AdropUMPConsentManager
   @objc public func setDebugSettings(testDeviceIdentifiers: [Swift.String], geography: AdropAds.AdropConsentDebugGeography)
@@ -42,6 +38,10 @@ extension AdropAds.AdropNativeAdView : @retroactive GoogleMobileAds.NativeAdDele
   @objc public func getConsentStatus() -> AdropAds.AdropConsentStatus
   @objc public func canRequestAds() -> Swift.Bool
   @objc public func reset()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc(AdropBackfill) public class AdropBackfill : ObjectiveC.NSObject {
+  @objc public static func activate()
   @objc deinit
 }
 extension AdropAdsBackfill.BackfillAdSource : Swift.Equatable {}
